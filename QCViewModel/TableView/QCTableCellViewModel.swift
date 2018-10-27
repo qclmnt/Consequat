@@ -9,7 +9,6 @@
 import Foundation
 import QCNavigation
 
-@objcMembers
 open class QCTableCellViewModel: QCCellViewModel {
      
     open override var reuseIdentifier: String {

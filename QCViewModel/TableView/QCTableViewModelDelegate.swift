@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc public protocol QCTableViewModelDelegate: QCViewModelDelegate {
+public protocol QCTableViewModelDelegate: QCViewModelDelegate {
     
     func refreshHeightCellsInTableView()
     func reloadVisibleCells()

@@ -8,7 +8,6 @@
 
 import UIKit
 
-@objcMembers
 open class QCDeviceHelper: NSObject {
     
     public class func isIphone5OrLess() -> Bool {

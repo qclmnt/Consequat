@@ -219,7 +219,7 @@ open class QCCollectionViewModel: QCScrollViewViewModel, UICollectionViewDataSou
     
     // MARK: - Register Cell
     
-    @objc open func registerCellsAndReusableViews(on collectionView: UICollectionView) {
+    open func registerCellsAndReusableViews(on collectionView: UICollectionView) {
         guard let sections = self.sections as NSArray as? [QCCollectionViewSection] else {
             return
         }

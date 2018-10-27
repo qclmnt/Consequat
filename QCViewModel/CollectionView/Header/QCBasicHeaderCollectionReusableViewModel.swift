@@ -8,7 +8,6 @@
 
 import UIKit
 
-@objcMembers
 open class QCBasicHeaderCollectionReusableViewModel: QCCollectionViewReusableViewModel {
     
     let text: String

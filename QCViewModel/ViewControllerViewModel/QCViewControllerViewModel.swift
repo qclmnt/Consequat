@@ -25,3 +25,64 @@ public protocol QCViewControllerViewModel: QCViewModel {
     func configureViewController(_ viewController: UIViewController)
        
 }
+
+extension QCViewControllerViewModel {
+    
+    public var title: String? {
+        get {
+            return nil
+        }
+        set (newValue) {
+            
+        }
+    }
+    
+    public var imageName: String? {
+        get {
+            return nil
+        }
+        set (newValue) {
+            
+        }
+    }
+    
+    public var statusBarHidden: Bool {
+        get {
+            return false
+        }
+        set (newValue) {
+            
+        }
+    }
+    
+    public var delegate: QCViewModelDelegate? {
+        get {
+            return nil
+        }
+        set (newValue) {
+            
+        }
+    }
+    
+    public var hasAlreadyLoadData: Bool {
+        get {
+            return false
+        }
+        set (newValue) {
+            
+        }
+    }
+    
+    public func viewWillAppear(_ animated: Bool) {}
+    public func viewDidAppear(_ animated: Bool) {}
+    public func viewWillDisappear(_ animated: Bool) {}
+    
+    public func viewControllerWillBePopped(_ controller: UIViewController?) {}
+    public func pushViewController(fromVM: QCViewControllerViewModel) {}
+    public func configureViewController(_ viewController: UIViewController) {}
+    
+    public func load() {}
+    public func configureView(_ view: UIView) {}
+    public func handleSuccess() {}
+    public func handleFailure(withStatusCode statusCode: Int, error: Error?) {}
+}

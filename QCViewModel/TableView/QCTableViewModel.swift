@@ -8,7 +8,6 @@
 
 import Foundation
 
-@objcMembers
 open class QCTableViewModel: QCScrollViewViewModel {
     
     // MARK: - Properties

@@ -9,7 +9,7 @@
 import UIKit
 import QCDeviceHelper
 
-@objc open class QCCollectionViewSection: QCSection {
+open class QCCollectionViewSection: QCSection {
     
     // MARK: - Properties
     
