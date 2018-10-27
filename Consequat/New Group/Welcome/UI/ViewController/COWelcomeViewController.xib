@@ -38,6 +38,9 @@
                                         <constraint firstAttribute="width" constant="120" id="aOZ-kw-xYa"/>
                                     </constraints>
                                     <state key="normal" title="Library"/>
+                                    <connections>
+                                        <action selector="libraryButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="U5G-QE-YUM"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -52,6 +55,9 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Dd-lp-1nh">
                                     <rect key="frame" x="34" y="140" width="120" height="120"/>
                                     <state key="normal" title="Camera"/>
+                                    <connections>
+                                        <action selector="cameraButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="CGM-Bu-f6J"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

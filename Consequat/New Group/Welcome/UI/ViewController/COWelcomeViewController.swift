@@ -46,5 +46,15 @@ class COWelcomeViewController: UIViewController {
         self.cameraButton.setImage(UIImage(named: viewModel.cameraImageName), for: .normal)
         
     }
+    
+    // MARK: - IBActions
+    
+    @IBAction func libraryButtonTouchUpInside(_ sender: UIButton) {
+        self.viewModel?.routeToLibrary()
+    }
+    
+    @IBAction func cameraButtonTouchUpInside(_ sender: UIButton) {
+        self.viewModel?.routeToCamera()
+    }
 
 }
