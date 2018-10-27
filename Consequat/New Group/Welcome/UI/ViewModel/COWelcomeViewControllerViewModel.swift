@@ -8,8 +8,22 @@
 
 import QCViewModel
 
-class COWelcomeViewControllerViewModel: QCViewControllerViewModel {
+struct COWelcomeViewControllerViewModel: QCViewControllerViewModel {
     
-   
+    // MARK: - Properties
     
+    let welcomeImageName = "welcome"
+    let libraryImageName = "library"
+    let cameraImageName = "camera"
+    
+    // MARK: - Actions
+    
+    func routeToLibrary() {
+        // Todo: Route to library routing entry
+    }
+    
+    func routeToCamera() {
+        // Todo: Route to camera routing entry
+    }
+
 }

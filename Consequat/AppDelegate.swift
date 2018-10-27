@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Build root
     
     func buildRoot() {
-        let viewController = COWelcomeViewController()
+        let viewController = COWelcomeViewController(viewModel: COWelcomeViewControllerViewModel())
         self.window?.rootViewController = viewController
     }
 
