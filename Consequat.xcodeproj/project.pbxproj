@@ -13,6 +13,84 @@
 		391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391BE3032184AC8200A2CA96 /* Assets.xcassets */; };
 		391BE3072184AC8200A2CA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391BE3052184AC8200A2CA96 /* LaunchScreen.storyboard */; };
 		391BE3122184AC8200A2CA96 /* ConsequatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3112184AC8200A2CA96 /* ConsequatTests.swift */; };
+		391BE32A2184ADC800A2CA96 /* QCNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */; };
+		391BE3332184ADC800A2CA96 /* QCNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 391BE3232184ADC800A2CA96 /* QCNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391BE3362184ADC800A2CA96 /* QCNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */; };
+		391BE3372184ADC800A2CA96 /* QCNavigation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		391BE3432184ADF700A2CA96 /* QCNavigationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE33F2184ADF700A2CA96 /* QCNavigationStyle.swift */; };
+		391BE3442184ADF700A2CA96 /* QCPopRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3402184ADF700A2CA96 /* QCPopRoutingEntry.swift */; };
+		391BE3452184ADF700A2CA96 /* QCNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3412184ADF700A2CA96 /* QCNavigator.swift */; };
+		391BE3462184ADF700A2CA96 /* QCRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3422184ADF700A2CA96 /* QCRoutingEntry.swift */; };
+		391BE3482184AE0500A2CA96 /* QCRoutingEntryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3472184AE0500A2CA96 /* QCRoutingEntryTests.swift */; };
+		391BE34A2184B16B00A2CA96 /* QCMockRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE3492184B16B00A2CA96 /* QCMockRoutingEntry.swift */; };
+		391BE3592184B2A200A2CA96 /* QCViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3502184B2A200A2CA96 /* QCViewModel.framework */; };
+		391BE3622184B2A200A2CA96 /* QCViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 391BE3522184B2A200A2CA96 /* QCViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391BE3652184B2A200A2CA96 /* QCViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3502184B2A200A2CA96 /* QCViewModel.framework */; };
+		391BE3662184B2A200A2CA96 /* QCViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3502184B2A200A2CA96 /* QCViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3936EE402184B4000073B1E9 /* QCSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE172184B4000073B1E9 /* QCSection.swift */; };
+		3936EE412184B4000073B1E9 /* QCScrollViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE182184B4000073B1E9 /* QCScrollViewViewModel.swift */; };
+		3936EE422184B4000073B1E9 /* QCCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE192184B4000073B1E9 /* QCCellViewModel.swift */; };
+		3936EE432184B4000073B1E9 /* QCTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE1B2184B4000073B1E9 /* QCTableViewModel.swift */; };
+		3936EE442184B4000073B1E9 /* QCTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE1C2184B4000073B1E9 /* QCTableSection.swift */; };
+		3936EE452184B4000073B1E9 /* QCTableViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE1D2184B4000073B1E9 /* QCTableViewModelDelegate.swift */; };
+		3936EE462184B4000073B1E9 /* QCSectionHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE1E2184B4000073B1E9 /* QCSectionHeaderFooterView.swift */; };
+		3936EE472184B4000073B1E9 /* QCSectionHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EE1F2184B4000073B1E9 /* QCSectionHeaderFooterView.xib */; };
+		3936EE482184B4000073B1E9 /* QCTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE202184B4000073B1E9 /* QCTableCellViewModel.swift */; };
+		3936EE492184B4000073B1E9 /* QCViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE222184B4000073B1E9 /* QCViewControllerViewModel.swift */; };
+		3936EE4A2184B4000073B1E9 /* QCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE242184B4000073B1E9 /* QCViewModel.swift */; };
+		3936EE4B2184B4000073B1E9 /* QCCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE262184B4000073B1E9 /* QCCollectionViewModel.swift */; };
+		3936EE4C2184B4000073B1E9 /* QCCollectionViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE282184B4000073B1E9 /* QCCollectionViewSection.swift */; };
+		3936EE4D2184B4000073B1E9 /* QCFatTitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE292184B4000073B1E9 /* QCFatTitleSection.swift */; };
+		3936EE4E2184B4000073B1E9 /* QCCollectionViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE2A2184B4000073B1E9 /* QCCollectionViewModelDelegate.swift */; };
+		3936EE4F2184B4000073B1E9 /* QCFatTitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EE2D2184B4000073B1E9 /* QCFatTitleCollectionViewCell.xib */; };
+		3936EE502184B4000073B1E9 /* QCFatTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE2E2184B4000073B1E9 /* QCFatTitleCollectionViewCell.swift */; };
+		3936EE512184B4000073B1E9 /* QCFatTitleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE2F2184B4000073B1E9 /* QCFatTitleCellViewModel.swift */; };
+		3936EE522184B4000073B1E9 /* QCCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE302184B4000073B1E9 /* QCCollectionCellViewModel.swift */; };
+		3936EE532184B4000073B1E9 /* QCCollectionViewReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE312184B4000073B1E9 /* QCCollectionViewReusableViewModel.swift */; };
+		3936EE542184B4000073B1E9 /* QCCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE322184B4000073B1E9 /* QCCollectionViewFlowLayout.swift */; };
+		3936EE552184B4000073B1E9 /* QCDecorationViewInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE342184B4000073B1E9 /* QCDecorationViewInfos.swift */; };
+		3936EE562184B4000073B1E9 /* QCDecorationCollectionReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE352184B4000073B1E9 /* QCDecorationCollectionReusableViewModel.swift */; };
+		3936EE572184B4000073B1E9 /* QCDecorationCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE362184B4000073B1E9 /* QCDecorationCollectionReusableView.swift */; };
+		3936EE582184B4000073B1E9 /* QCDecorationCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EE372184B4000073B1E9 /* QCDecorationCollectionReusableView.xib */; };
+		3936EE592184B4000073B1E9 /* QCBasicHeaderCollectionReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE392184B4000073B1E9 /* QCBasicHeaderCollectionReusableViewModel.swift */; };
+		3936EE5A2184B4000073B1E9 /* QCCollectionReusableViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE3B2184B4000073B1E9 /* QCCollectionReusableViewStyle.swift */; };
+		3936EE5B2184B4000073B1E9 /* QCBasicBoldCollectionReusableViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE3C2184B4000073B1E9 /* QCBasicBoldCollectionReusableViewStyle.swift */; };
+		3936EE5C2184B4000073B1E9 /* QCBasicFatBoldCollectionReusableViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE3D2184B4000073B1E9 /* QCBasicFatBoldCollectionReusableViewStyle.swift */; };
+		3936EE5D2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE3E2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.swift */; };
+		3936EE5E2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EE3F2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.xib */; };
+		3936EE7F2184B4FE0073B1E9 /* QCMockCollectionViewReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE612184B4FD0073B1E9 /* QCMockCollectionViewReusableViewModel.swift */; };
+		3936EE802184B4FE0073B1E9 /* QCMockCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE622184B4FD0073B1E9 /* QCMockCollectionCell.swift */; };
+		3936EE812184B4FE0073B1E9 /* QCFatTitleSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE642184B4FD0073B1E9 /* QCFatTitleSectionTests.swift */; };
+		3936EE822184B4FE0073B1E9 /* QCMockCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE652184B4FD0073B1E9 /* QCMockCollectionView.swift */; };
+		3936EE832184B4FE0073B1E9 /* QCCollectionViewFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE662184B4FD0073B1E9 /* QCCollectionViewFlowLayoutTests.swift */; };
+		3936EE842184B4FE0073B1E9 /* QCMockCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE682184B4FD0073B1E9 /* QCMockCollectionCellViewModel.swift */; };
+		3936EE852184B4FE0073B1E9 /* QCCollectionCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE692184B4FD0073B1E9 /* QCCollectionCellViewModelTests.swift */; };
+		3936EE862184B4FE0073B1E9 /* QCFatTitleCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE6A2184B4FD0073B1E9 /* QCFatTitleCellViewModelTests.swift */; };
+		3936EE872184B4FE0073B1E9 /* QCCollectionViewModelDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE6B2184B4FD0073B1E9 /* QCCollectionViewModelDelegateTests.swift */; };
+		3936EE882184B4FE0073B1E9 /* QCCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE6C2184B4FD0073B1E9 /* QCCollectionViewModelTests.swift */; };
+		3936EE892184B4FE0073B1E9 /* QCMockCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EE6D2184B4FD0073B1E9 /* QCMockCollectionCell.xib */; };
+		3936EE8A2184B4FE0073B1E9 /* QCCollectionViewSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE6E2184B4FD0073B1E9 /* QCCollectionViewSectionTests.swift */; };
+		3936EE8B2184B4FE0073B1E9 /* QCMockCollectionViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE6F2184B4FD0073B1E9 /* QCMockCollectionViewModelDelegate.swift */; };
+		3936EE8C2184B4FE0073B1E9 /* QCBasicBoldCollectionReusableViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE712184B4FD0073B1E9 /* QCBasicBoldCollectionReusableViewStyleTests.swift */; };
+		3936EE8D2184B4FE0073B1E9 /* QCBasicFatBoldCollectionReusableViewStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE722184B4FD0073B1E9 /* QCBasicFatBoldCollectionReusableViewStyleTests.swift */; };
+		3936EE8E2184B4FE0073B1E9 /* QCCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE742184B4FD0073B1E9 /* QCCellViewModelTests.swift */; };
+		3936EE8F2184B4FE0073B1E9 /* QCScrollViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE752184B4FD0073B1E9 /* QCScrollViewViewModelTests.swift */; };
+		3936EE902184B4FE0073B1E9 /* QCMockTableViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE762184B4FD0073B1E9 /* QCMockTableViewModelDelegate.swift */; };
+		3936EE912184B4FE0073B1E9 /* QCSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE772184B4FD0073B1E9 /* QCSectionTests.swift */; };
+		3936EE922184B4FE0073B1E9 /* QCMockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE782184B4FD0073B1E9 /* QCMockTableView.swift */; };
+		3936EE932184B4FE0073B1E9 /* QCMockViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE792184B4FD0073B1E9 /* QCMockViewModelDelegate.swift */; };
+		3936EE942184B4FE0073B1E9 /* QCTableSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE7B2184B4FE0073B1E9 /* QCTableSectionTests.swift */; };
+		3936EE952184B4FE0073B1E9 /* QCTableViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE7C2184B4FE0073B1E9 /* QCTableViewModelTests.swift */; };
+		3936EE962184B4FE0073B1E9 /* QCMockTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE7D2184B4FE0073B1E9 /* QCMockTableCellViewModel.swift */; };
+		3936EE972184B4FE0073B1E9 /* QCTableCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EE7E2184B4FE0073B1E9 /* QCTableCellViewModelTests.swift */; };
+		3936EEA62184B5E60073B1E9 /* QCDeviceHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */; };
+		3936EEAD2184B5E60073B1E9 /* QCDeviceHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEAC2184B5E60073B1E9 /* QCDeviceHelperTests.swift */; };
+		3936EEAF2184B5E60073B1E9 /* QCDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3936EE9F2184B5E60073B1E9 /* QCDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3936EEB22184B5E60073B1E9 /* QCDeviceHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */; };
+		3936EEB32184B5E60073B1E9 /* QCDeviceHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3936EEBB2184B6080073B1E9 /* QCDeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEBA2184B6080073B1E9 /* QCDeviceHelper.swift */; };
+		3936EEBD2184B6410073B1E9 /* QCDeviceHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */; };
+		3936EEBE2184B6510073B1E9 /* QCNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +101,86 @@
 			remoteGlobalIDString = 391BE2F82184AC8000A2CA96;
 			remoteInfo = Consequat;
 		};
+		391BE32B2184ADC800A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE3202184ADC700A2CA96;
+			remoteInfo = QCNavigation;
+		};
+		391BE32D2184ADC800A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE2F82184AC8000A2CA96;
+			remoteInfo = Consequat;
+		};
+		391BE3342184ADC800A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE3202184ADC700A2CA96;
+			remoteInfo = QCNavigation;
+		};
+		391BE35A2184B2A200A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE34F2184B2A200A2CA96;
+			remoteInfo = QCViewModel;
+		};
+		391BE35C2184B2A200A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE2F82184AC8000A2CA96;
+			remoteInfo = Consequat;
+		};
+		391BE3632184B2A200A2CA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE34F2184B2A200A2CA96;
+			remoteInfo = QCViewModel;
+		};
+		3936EEA72184B5E60073B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3936EE9C2184B5E60073B1E9;
+			remoteInfo = QCDeviceHelper;
+		};
+		3936EEA92184B5E60073B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391BE2F82184AC8000A2CA96;
+			remoteInfo = Consequat;
+		};
+		3936EEB02184B5E60073B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3936EE9C2184B5E60073B1E9;
+			remoteInfo = QCDeviceHelper;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		391BE33D2184ADC800A2CA96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3936EEB32184B5E60073B1E9 /* QCDeviceHelper.framework in Embed Frameworks */,
+				391BE3372184ADC800A2CA96 /* QCNavigation.framework in Embed Frameworks */,
+				391BE3662184B2A200A2CA96 /* QCViewModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		391BE2F92184AC8000A2CA96 /* Consequat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Consequat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +193,86 @@
 		391BE30D2184AC8200A2CA96 /* ConsequatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsequatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		391BE3112184AC8200A2CA96 /* ConsequatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsequatTests.swift; sourceTree = "<group>"; };
 		391BE3132184AC8200A2CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391BE3212184ADC700A2CA96 /* QCNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391BE3232184ADC800A2CA96 /* QCNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCNavigation.h; sourceTree = "<group>"; };
+		391BE3242184ADC800A2CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391BE3292184ADC800A2CA96 /* QCNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391BE3322184ADC800A2CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391BE33F2184ADF700A2CA96 /* QCNavigationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCNavigationStyle.swift; sourceTree = "<group>"; };
+		391BE3402184ADF700A2CA96 /* QCPopRoutingEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCPopRoutingEntry.swift; sourceTree = "<group>"; };
+		391BE3412184ADF700A2CA96 /* QCNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCNavigator.swift; sourceTree = "<group>"; };
+		391BE3422184ADF700A2CA96 /* QCRoutingEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCRoutingEntry.swift; sourceTree = "<group>"; };
+		391BE3472184AE0500A2CA96 /* QCRoutingEntryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCRoutingEntryTests.swift; sourceTree = "<group>"; };
+		391BE3492184B16B00A2CA96 /* QCMockRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCMockRoutingEntry.swift; sourceTree = "<group>"; };
+		391BE3502184B2A200A2CA96 /* QCViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391BE3522184B2A200A2CA96 /* QCViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewModel.h; sourceTree = "<group>"; };
+		391BE3532184B2A200A2CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391BE3582184B2A200A2CA96 /* QCViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391BE3612184B2A200A2CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936EE172184B4000073B1E9 /* QCSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCSection.swift; sourceTree = "<group>"; };
+		3936EE182184B4000073B1E9 /* QCScrollViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCScrollViewViewModel.swift; sourceTree = "<group>"; };
+		3936EE192184B4000073B1E9 /* QCCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE1B2184B4000073B1E9 /* QCTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableViewModel.swift; sourceTree = "<group>"; };
+		3936EE1C2184B4000073B1E9 /* QCTableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableSection.swift; sourceTree = "<group>"; };
+		3936EE1D2184B4000073B1E9 /* QCTableViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableViewModelDelegate.swift; sourceTree = "<group>"; };
+		3936EE1E2184B4000073B1E9 /* QCSectionHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCSectionHeaderFooterView.swift; sourceTree = "<group>"; };
+		3936EE1F2184B4000073B1E9 /* QCSectionHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCSectionHeaderFooterView.xib; sourceTree = "<group>"; };
+		3936EE202184B4000073B1E9 /* QCTableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE222184B4000073B1E9 /* QCViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCViewControllerViewModel.swift; sourceTree = "<group>"; };
+		3936EE242184B4000073B1E9 /* QCViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCViewModel.swift; sourceTree = "<group>"; };
+		3936EE262184B4000073B1E9 /* QCCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewModel.swift; sourceTree = "<group>"; };
+		3936EE282184B4000073B1E9 /* QCCollectionViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewSection.swift; sourceTree = "<group>"; };
+		3936EE292184B4000073B1E9 /* QCFatTitleSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCFatTitleSection.swift; sourceTree = "<group>"; };
+		3936EE2A2184B4000073B1E9 /* QCCollectionViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewModelDelegate.swift; sourceTree = "<group>"; };
+		3936EE2D2184B4000073B1E9 /* QCFatTitleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCFatTitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		3936EE2E2184B4000073B1E9 /* QCFatTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCFatTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		3936EE2F2184B4000073B1E9 /* QCFatTitleCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCFatTitleCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE302184B4000073B1E9 /* QCCollectionCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE312184B4000073B1E9 /* QCCollectionViewReusableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewReusableViewModel.swift; sourceTree = "<group>"; };
+		3936EE322184B4000073B1E9 /* QCCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		3936EE342184B4000073B1E9 /* QCDecorationViewInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCDecorationViewInfos.swift; sourceTree = "<group>"; };
+		3936EE352184B4000073B1E9 /* QCDecorationCollectionReusableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCDecorationCollectionReusableViewModel.swift; sourceTree = "<group>"; };
+		3936EE362184B4000073B1E9 /* QCDecorationCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCDecorationCollectionReusableView.swift; sourceTree = "<group>"; };
+		3936EE372184B4000073B1E9 /* QCDecorationCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCDecorationCollectionReusableView.xib; sourceTree = "<group>"; };
+		3936EE392184B4000073B1E9 /* QCBasicHeaderCollectionReusableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicHeaderCollectionReusableViewModel.swift; sourceTree = "<group>"; };
+		3936EE3B2184B4000073B1E9 /* QCCollectionReusableViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionReusableViewStyle.swift; sourceTree = "<group>"; };
+		3936EE3C2184B4000073B1E9 /* QCBasicBoldCollectionReusableViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicBoldCollectionReusableViewStyle.swift; sourceTree = "<group>"; };
+		3936EE3D2184B4000073B1E9 /* QCBasicFatBoldCollectionReusableViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicFatBoldCollectionReusableViewStyle.swift; sourceTree = "<group>"; };
+		3936EE3E2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		3936EE3F2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCBasicHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		3936EE612184B4FD0073B1E9 /* QCMockCollectionViewReusableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockCollectionViewReusableViewModel.swift; sourceTree = "<group>"; };
+		3936EE622184B4FD0073B1E9 /* QCMockCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockCollectionCell.swift; sourceTree = "<group>"; };
+		3936EE642184B4FD0073B1E9 /* QCFatTitleSectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCFatTitleSectionTests.swift; sourceTree = "<group>"; };
+		3936EE652184B4FD0073B1E9 /* QCMockCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockCollectionView.swift; sourceTree = "<group>"; };
+		3936EE662184B4FD0073B1E9 /* QCCollectionViewFlowLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewFlowLayoutTests.swift; sourceTree = "<group>"; };
+		3936EE682184B4FD0073B1E9 /* QCMockCollectionCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE692184B4FD0073B1E9 /* QCCollectionCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionCellViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE6A2184B4FD0073B1E9 /* QCFatTitleCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCFatTitleCellViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE6B2184B4FD0073B1E9 /* QCCollectionViewModelDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewModelDelegateTests.swift; sourceTree = "<group>"; };
+		3936EE6C2184B4FD0073B1E9 /* QCCollectionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE6D2184B4FD0073B1E9 /* QCMockCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCMockCollectionCell.xib; sourceTree = "<group>"; };
+		3936EE6E2184B4FD0073B1E9 /* QCCollectionViewSectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCollectionViewSectionTests.swift; sourceTree = "<group>"; };
+		3936EE6F2184B4FD0073B1E9 /* QCMockCollectionViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockCollectionViewModelDelegate.swift; sourceTree = "<group>"; };
+		3936EE712184B4FD0073B1E9 /* QCBasicBoldCollectionReusableViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicBoldCollectionReusableViewStyleTests.swift; sourceTree = "<group>"; };
+		3936EE722184B4FD0073B1E9 /* QCBasicFatBoldCollectionReusableViewStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCBasicFatBoldCollectionReusableViewStyleTests.swift; sourceTree = "<group>"; };
+		3936EE742184B4FD0073B1E9 /* QCCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCellViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE752184B4FD0073B1E9 /* QCScrollViewViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCScrollViewViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE762184B4FD0073B1E9 /* QCMockTableViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockTableViewModelDelegate.swift; sourceTree = "<group>"; };
+		3936EE772184B4FD0073B1E9 /* QCSectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCSectionTests.swift; sourceTree = "<group>"; };
+		3936EE782184B4FD0073B1E9 /* QCMockTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockTableView.swift; sourceTree = "<group>"; };
+		3936EE792184B4FD0073B1E9 /* QCMockViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockViewModelDelegate.swift; sourceTree = "<group>"; };
+		3936EE7B2184B4FE0073B1E9 /* QCTableSectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableSectionTests.swift; sourceTree = "<group>"; };
+		3936EE7C2184B4FE0073B1E9 /* QCTableViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE7D2184B4FE0073B1E9 /* QCMockTableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMockTableCellViewModel.swift; sourceTree = "<group>"; };
+		3936EE7E2184B4FE0073B1E9 /* QCTableCellViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCTableCellViewModelTests.swift; sourceTree = "<group>"; };
+		3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCDeviceHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936EE9F2184B5E60073B1E9 /* QCDeviceHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCDeviceHelper.h; sourceTree = "<group>"; };
+		3936EEA02184B5E60073B1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936EEA52184B5E60073B1E9 /* QCDeviceHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCDeviceHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936EEAC2184B5E60073B1E9 /* QCDeviceHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCDeviceHelperTests.swift; sourceTree = "<group>"; };
+		3936EEAE2184B5E60073B1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936EEBA2184B6080073B1E9 /* QCDeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCDeviceHelper.swift; sourceTree = "<group>"; };
+		3936EEBF2184B9BF0073B1E9 /* QCViewModelTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCViewModelTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +280,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3936EEB22184B5E60073B1E9 /* QCDeviceHelper.framework in Frameworks */,
+				391BE3362184ADC800A2CA96 /* QCNavigation.framework in Frameworks */,
+				391BE3652184B2A200A2CA96 /* QCViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +290,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE31E2184ADC700A2CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3262184ADC800A2CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE32A2184ADC800A2CA96 /* QCNavigation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE34D2184B2A200A2CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EEBE2184B6510073B1E9 /* QCNavigation.framework in Frameworks */,
+				3936EEBD2184B6410073B1E9 /* QCDeviceHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3552184B2A200A2CA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE3592184B2A200A2CA96 /* QCViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EE9A2184B5E60073B1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EEA22184B5E60073B1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EEA62184B5E60073B1E9 /* QCDeviceHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +348,14 @@
 			children = (
 				391BE2FB2184AC8000A2CA96 /* Consequat */,
 				391BE3102184AC8200A2CA96 /* ConsequatTests */,
+				391BE3222184ADC800A2CA96 /* QCNavigation */,
+				391BE32F2184ADC800A2CA96 /* QCNavigationTests */,
+				391BE3512184B2A200A2CA96 /* QCViewModel */,
+				391BE35E2184B2A200A2CA96 /* QCViewModelTests */,
+				3936EE9E2184B5E60073B1E9 /* QCDeviceHelper */,
+				3936EEAB2184B5E60073B1E9 /* QCDeviceHelperTests */,
 				391BE2FA2184AC8000A2CA96 /* Products */,
+				3936EEBC2184B6410073B1E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +364,12 @@
 			children = (
 				391BE2F92184AC8000A2CA96 /* Consequat.app */,
 				391BE30D2184AC8200A2CA96 /* ConsequatTests.xctest */,
+				391BE3212184ADC700A2CA96 /* QCNavigation.framework */,
+				391BE3292184ADC800A2CA96 /* QCNavigationTests.xctest */,
+				391BE3502184B2A200A2CA96 /* QCViewModel.framework */,
+				391BE3582184B2A200A2CA96 /* QCViewModelTests.xctest */,
+				3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */,
+				3936EEA52184B5E60073B1E9 /* QCDeviceHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +396,293 @@
 			path = ConsequatTests;
 			sourceTree = "<group>";
 		};
+		391BE3222184ADC800A2CA96 /* QCNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				391BE33F2184ADF700A2CA96 /* QCNavigationStyle.swift */,
+				391BE3412184ADF700A2CA96 /* QCNavigator.swift */,
+				391BE3402184ADF700A2CA96 /* QCPopRoutingEntry.swift */,
+				391BE3422184ADF700A2CA96 /* QCRoutingEntry.swift */,
+				391BE3232184ADC800A2CA96 /* QCNavigation.h */,
+				391BE3242184ADC800A2CA96 /* Info.plist */,
+			);
+			path = QCNavigation;
+			sourceTree = "<group>";
+		};
+		391BE32F2184ADC800A2CA96 /* QCNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				391BE3472184AE0500A2CA96 /* QCRoutingEntryTests.swift */,
+				391BE3492184B16B00A2CA96 /* QCMockRoutingEntry.swift */,
+				391BE3322184ADC800A2CA96 /* Info.plist */,
+			);
+			path = QCNavigationTests;
+			sourceTree = "<group>";
+		};
+		391BE3512184B2A200A2CA96 /* QCViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE252184B4000073B1E9 /* CollectionView */,
+				3936EE162184B4000073B1E9 /* Common */,
+				3936EE1A2184B4000073B1E9 /* TableView */,
+				3936EE212184B4000073B1E9 /* ViewControllerViewModel */,
+				3936EE232184B4000073B1E9 /* ViewModel */,
+				391BE3522184B2A200A2CA96 /* QCViewModel.h */,
+				391BE3532184B2A200A2CA96 /* Info.plist */,
+			);
+			path = QCViewModel;
+			sourceTree = "<group>";
+		};
+		391BE35E2184B2A200A2CA96 /* QCViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE602184B4FD0073B1E9 /* CollectionView */,
+				3936EE732184B4FD0073B1E9 /* Common */,
+				3936EE792184B4FD0073B1E9 /* QCMockViewModelDelegate.swift */,
+				3936EE7A2184B4FE0073B1E9 /* TableView */,
+				391BE3612184B2A200A2CA96 /* Info.plist */,
+				3936EEBF2184B9BF0073B1E9 /* QCViewModelTests-Bridging-Header.h */,
+			);
+			path = QCViewModelTests;
+			sourceTree = "<group>";
+		};
+		3936EE162184B4000073B1E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE172184B4000073B1E9 /* QCSection.swift */,
+				3936EE182184B4000073B1E9 /* QCScrollViewViewModel.swift */,
+				3936EE192184B4000073B1E9 /* QCCellViewModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3936EE1A2184B4000073B1E9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE1B2184B4000073B1E9 /* QCTableViewModel.swift */,
+				3936EE1C2184B4000073B1E9 /* QCTableSection.swift */,
+				3936EE1D2184B4000073B1E9 /* QCTableViewModelDelegate.swift */,
+				3936EE1E2184B4000073B1E9 /* QCSectionHeaderFooterView.swift */,
+				3936EE1F2184B4000073B1E9 /* QCSectionHeaderFooterView.xib */,
+				3936EE202184B4000073B1E9 /* QCTableCellViewModel.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3936EE212184B4000073B1E9 /* ViewControllerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE222184B4000073B1E9 /* QCViewControllerViewModel.swift */,
+			);
+			path = ViewControllerViewModel;
+			sourceTree = "<group>";
+		};
+		3936EE232184B4000073B1E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE242184B4000073B1E9 /* QCViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3936EE252184B4000073B1E9 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE262184B4000073B1E9 /* QCCollectionViewModel.swift */,
+				3936EE272184B4000073B1E9 /* Section */,
+				3936EE2A2184B4000073B1E9 /* QCCollectionViewModelDelegate.swift */,
+				3936EE2B2184B4000073B1E9 /* CellViewModel */,
+				3936EE312184B4000073B1E9 /* QCCollectionViewReusableViewModel.swift */,
+				3936EE322184B4000073B1E9 /* QCCollectionViewFlowLayout.swift */,
+				3936EE332184B4000073B1E9 /* Decoration view */,
+				3936EE382184B4000073B1E9 /* Header */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		3936EE272184B4000073B1E9 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE282184B4000073B1E9 /* QCCollectionViewSection.swift */,
+				3936EE292184B4000073B1E9 /* QCFatTitleSection.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		3936EE2B2184B4000073B1E9 /* CellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE2C2184B4000073B1E9 /* Fat Title */,
+				3936EE302184B4000073B1E9 /* QCCollectionCellViewModel.swift */,
+			);
+			path = CellViewModel;
+			sourceTree = "<group>";
+		};
+		3936EE2C2184B4000073B1E9 /* Fat Title */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE2D2184B4000073B1E9 /* QCFatTitleCollectionViewCell.xib */,
+				3936EE2E2184B4000073B1E9 /* QCFatTitleCollectionViewCell.swift */,
+				3936EE2F2184B4000073B1E9 /* QCFatTitleCellViewModel.swift */,
+			);
+			path = "Fat Title";
+			sourceTree = "<group>";
+		};
+		3936EE332184B4000073B1E9 /* Decoration view */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE342184B4000073B1E9 /* QCDecorationViewInfos.swift */,
+				3936EE352184B4000073B1E9 /* QCDecorationCollectionReusableViewModel.swift */,
+				3936EE362184B4000073B1E9 /* QCDecorationCollectionReusableView.swift */,
+				3936EE372184B4000073B1E9 /* QCDecorationCollectionReusableView.xib */,
+			);
+			path = "Decoration view";
+			sourceTree = "<group>";
+		};
+		3936EE382184B4000073B1E9 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE392184B4000073B1E9 /* QCBasicHeaderCollectionReusableViewModel.swift */,
+				3936EE3A2184B4000073B1E9 /* Style */,
+				3936EE3E2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.swift */,
+				3936EE3F2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		3936EE3A2184B4000073B1E9 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE3B2184B4000073B1E9 /* QCCollectionReusableViewStyle.swift */,
+				3936EE3C2184B4000073B1E9 /* QCBasicBoldCollectionReusableViewStyle.swift */,
+				3936EE3D2184B4000073B1E9 /* QCBasicFatBoldCollectionReusableViewStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		3936EE602184B4FD0073B1E9 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE612184B4FD0073B1E9 /* QCMockCollectionViewReusableViewModel.swift */,
+				3936EE622184B4FD0073B1E9 /* QCMockCollectionCell.swift */,
+				3936EE632184B4FD0073B1E9 /* Section */,
+				3936EE652184B4FD0073B1E9 /* QCMockCollectionView.swift */,
+				3936EE662184B4FD0073B1E9 /* QCCollectionViewFlowLayoutTests.swift */,
+				3936EE672184B4FD0073B1E9 /* CellViewModel */,
+				3936EE6B2184B4FD0073B1E9 /* QCCollectionViewModelDelegateTests.swift */,
+				3936EE6C2184B4FD0073B1E9 /* QCCollectionViewModelTests.swift */,
+				3936EE6D2184B4FD0073B1E9 /* QCMockCollectionCell.xib */,
+				3936EE6E2184B4FD0073B1E9 /* QCCollectionViewSectionTests.swift */,
+				3936EE6F2184B4FD0073B1E9 /* QCMockCollectionViewModelDelegate.swift */,
+				3936EE702184B4FD0073B1E9 /* Reusable Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		3936EE632184B4FD0073B1E9 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE642184B4FD0073B1E9 /* QCFatTitleSectionTests.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		3936EE672184B4FD0073B1E9 /* CellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE682184B4FD0073B1E9 /* QCMockCollectionCellViewModel.swift */,
+				3936EE692184B4FD0073B1E9 /* QCCollectionCellViewModelTests.swift */,
+				3936EE6A2184B4FD0073B1E9 /* QCFatTitleCellViewModelTests.swift */,
+			);
+			path = CellViewModel;
+			sourceTree = "<group>";
+		};
+		3936EE702184B4FD0073B1E9 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE712184B4FD0073B1E9 /* QCBasicBoldCollectionReusableViewStyleTests.swift */,
+				3936EE722184B4FD0073B1E9 /* QCBasicFatBoldCollectionReusableViewStyleTests.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		3936EE732184B4FD0073B1E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE742184B4FD0073B1E9 /* QCCellViewModelTests.swift */,
+				3936EE752184B4FD0073B1E9 /* QCScrollViewViewModelTests.swift */,
+				3936EE762184B4FD0073B1E9 /* QCMockTableViewModelDelegate.swift */,
+				3936EE772184B4FD0073B1E9 /* QCSectionTests.swift */,
+				3936EE782184B4FD0073B1E9 /* QCMockTableView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3936EE7A2184B4FE0073B1E9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3936EE7B2184B4FE0073B1E9 /* QCTableSectionTests.swift */,
+				3936EE7C2184B4FE0073B1E9 /* QCTableViewModelTests.swift */,
+				3936EE7D2184B4FE0073B1E9 /* QCMockTableCellViewModel.swift */,
+				3936EE7E2184B4FE0073B1E9 /* QCTableCellViewModelTests.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3936EE9E2184B5E60073B1E9 /* QCDeviceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEBA2184B6080073B1E9 /* QCDeviceHelper.swift */,
+				3936EE9F2184B5E60073B1E9 /* QCDeviceHelper.h */,
+				3936EEA02184B5E60073B1E9 /* Info.plist */,
+			);
+			path = QCDeviceHelper;
+			sourceTree = "<group>";
+		};
+		3936EEAB2184B5E60073B1E9 /* QCDeviceHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEAC2184B5E60073B1E9 /* QCDeviceHelperTests.swift */,
+				3936EEAE2184B5E60073B1E9 /* Info.plist */,
+			);
+			path = QCDeviceHelperTests;
+			sourceTree = "<group>";
+		};
+		3936EEBC2184B6410073B1E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		391BE31C2184ADC700A2CA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE3332184ADC800A2CA96 /* QCNavigation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE34B2184B2A200A2CA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE3622184B2A200A2CA96 /* QCViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EE982184B5E60073B1E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EEAF2184B5E60073B1E9 /* QCDeviceHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		391BE2F82184AC8000A2CA96 /* Consequat */ = {
@@ -106,10 +692,14 @@
 				391BE2F52184AC8000A2CA96 /* Sources */,
 				391BE2F62184AC8000A2CA96 /* Frameworks */,
 				391BE2F72184AC8000A2CA96 /* Resources */,
+				391BE33D2184ADC800A2CA96 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				391BE3352184ADC800A2CA96 /* PBXTargetDependency */,
+				391BE3642184B2A200A2CA96 /* PBXTargetDependency */,
+				3936EEB12184B5E60073B1E9 /* PBXTargetDependency */,
 			);
 			name = Consequat;
 			productName = Consequat;
@@ -134,6 +724,117 @@
 			productReference = 391BE30D2184AC8200A2CA96 /* ConsequatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		391BE3202184ADC700A2CA96 /* QCNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391BE33C2184ADC800A2CA96 /* Build configuration list for PBXNativeTarget "QCNavigation" */;
+			buildPhases = (
+				391BE31C2184ADC700A2CA96 /* Headers */,
+				391BE31D2184ADC700A2CA96 /* Sources */,
+				391BE31E2184ADC700A2CA96 /* Frameworks */,
+				391BE31F2184ADC700A2CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCNavigation;
+			productName = QCNavigation;
+			productReference = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		391BE3282184ADC800A2CA96 /* QCNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391BE33E2184ADC800A2CA96 /* Build configuration list for PBXNativeTarget "QCNavigationTests" */;
+			buildPhases = (
+				391BE3252184ADC800A2CA96 /* Sources */,
+				391BE3262184ADC800A2CA96 /* Frameworks */,
+				391BE3272184ADC800A2CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391BE32C2184ADC800A2CA96 /* PBXTargetDependency */,
+				391BE32E2184ADC800A2CA96 /* PBXTargetDependency */,
+			);
+			name = QCNavigationTests;
+			productName = QCNavigationTests;
+			productReference = 391BE3292184ADC800A2CA96 /* QCNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		391BE34F2184B2A200A2CA96 /* QCViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391BE3672184B2A200A2CA96 /* Build configuration list for PBXNativeTarget "QCViewModel" */;
+			buildPhases = (
+				391BE34B2184B2A200A2CA96 /* Headers */,
+				391BE34C2184B2A200A2CA96 /* Sources */,
+				391BE34D2184B2A200A2CA96 /* Frameworks */,
+				391BE34E2184B2A200A2CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCViewModel;
+			productName = QCViewModel;
+			productReference = 391BE3502184B2A200A2CA96 /* QCViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		391BE3572184B2A200A2CA96 /* QCViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391BE36A2184B2A200A2CA96 /* Build configuration list for PBXNativeTarget "QCViewModelTests" */;
+			buildPhases = (
+				391BE3542184B2A200A2CA96 /* Sources */,
+				391BE3552184B2A200A2CA96 /* Frameworks */,
+				391BE3562184B2A200A2CA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391BE35B2184B2A200A2CA96 /* PBXTargetDependency */,
+				391BE35D2184B2A200A2CA96 /* PBXTargetDependency */,
+			);
+			name = QCViewModelTests;
+			productName = QCViewModelTests;
+			productReference = 391BE3582184B2A200A2CA96 /* QCViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936EEB42184B5E60073B1E9 /* Build configuration list for PBXNativeTarget "QCDeviceHelper" */;
+			buildPhases = (
+				3936EE982184B5E60073B1E9 /* Headers */,
+				3936EE992184B5E60073B1E9 /* Sources */,
+				3936EE9A2184B5E60073B1E9 /* Frameworks */,
+				3936EE9B2184B5E60073B1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCDeviceHelper;
+			productName = QCDeviceHelper;
+			productReference = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3936EEA42184B5E60073B1E9 /* QCDeviceHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936EEB72184B5E60073B1E9 /* Build configuration list for PBXNativeTarget "QCDeviceHelperTests" */;
+			buildPhases = (
+				3936EEA12184B5E60073B1E9 /* Sources */,
+				3936EEA22184B5E60073B1E9 /* Frameworks */,
+				3936EEA32184B5E60073B1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3936EEA82184B5E60073B1E9 /* PBXTargetDependency */,
+				3936EEAA2184B5E60073B1E9 /* PBXTargetDependency */,
+			);
+			name = QCDeviceHelperTests;
+			productName = QCDeviceHelperTests;
+			productReference = 3936EEA52184B5E60073B1E9 /* QCDeviceHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +849,30 @@
 						CreatedOnToolsVersion = 10.0;
 					};
 					391BE30C2184AC8200A2CA96 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 391BE2F82184AC8000A2CA96;
+					};
+					391BE3202184ADC700A2CA96 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					391BE3282184ADC800A2CA96 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 391BE2F82184AC8000A2CA96;
+					};
+					391BE34F2184B2A200A2CA96 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					391BE3572184B2A200A2CA96 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						TestTargetID = 391BE2F82184AC8000A2CA96;
+					};
+					3936EE9C2184B5E60073B1E9 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					3936EEA42184B5E60073B1E9 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 391BE2F82184AC8000A2CA96;
 					};
@@ -168,6 +893,12 @@
 			targets = (
 				391BE2F82184AC8000A2CA96 /* Consequat */,
 				391BE30C2184AC8200A2CA96 /* ConsequatTests */,
+				391BE3202184ADC700A2CA96 /* QCNavigation */,
+				391BE3282184ADC800A2CA96 /* QCNavigationTests */,
+				391BE34F2184B2A200A2CA96 /* QCViewModel */,
+				391BE3572184B2A200A2CA96 /* QCViewModelTests */,
+				3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */,
+				3936EEA42184B5E60073B1E9 /* QCDeviceHelperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +915,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		391BE30B2184AC8200A2CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE31F2184ADC700A2CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3272184ADC800A2CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE34E2184B2A200A2CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EE4F2184B4000073B1E9 /* QCFatTitleCollectionViewCell.xib in Resources */,
+				3936EE5E2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.xib in Resources */,
+				3936EE472184B4000073B1E9 /* QCSectionHeaderFooterView.xib in Resources */,
+				3936EE582184B4000073B1E9 /* QCDecorationCollectionReusableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3562184B2A200A2CA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EE892184B4FE0073B1E9 /* QCMockCollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EE9B2184B5E60073B1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EEA32184B5E60073B1E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,6 +988,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		391BE31D2184ADC700A2CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE3452184ADF700A2CA96 /* QCNavigator.swift in Sources */,
+				391BE3462184ADF700A2CA96 /* QCRoutingEntry.swift in Sources */,
+				391BE3432184ADF700A2CA96 /* QCNavigationStyle.swift in Sources */,
+				391BE3442184ADF700A2CA96 /* QCPopRoutingEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3252184ADC800A2CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391BE3482184AE0500A2CA96 /* QCRoutingEntryTests.swift in Sources */,
+				391BE34A2184B16B00A2CA96 /* QCMockRoutingEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE34C2184B2A200A2CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EE532184B4000073B1E9 /* QCCollectionViewReusableViewModel.swift in Sources */,
+				3936EE5C2184B4000073B1E9 /* QCBasicFatBoldCollectionReusableViewStyle.swift in Sources */,
+				3936EE592184B4000073B1E9 /* QCBasicHeaderCollectionReusableViewModel.swift in Sources */,
+				3936EE4C2184B4000073B1E9 /* QCCollectionViewSection.swift in Sources */,
+				3936EE412184B4000073B1E9 /* QCScrollViewViewModel.swift in Sources */,
+				3936EE442184B4000073B1E9 /* QCTableSection.swift in Sources */,
+				3936EE5A2184B4000073B1E9 /* QCCollectionReusableViewStyle.swift in Sources */,
+				3936EE4E2184B4000073B1E9 /* QCCollectionViewModelDelegate.swift in Sources */,
+				3936EE432184B4000073B1E9 /* QCTableViewModel.swift in Sources */,
+				3936EE562184B4000073B1E9 /* QCDecorationCollectionReusableViewModel.swift in Sources */,
+				3936EE572184B4000073B1E9 /* QCDecorationCollectionReusableView.swift in Sources */,
+				3936EE512184B4000073B1E9 /* QCFatTitleCellViewModel.swift in Sources */,
+				3936EE5B2184B4000073B1E9 /* QCBasicBoldCollectionReusableViewStyle.swift in Sources */,
+				3936EE422184B4000073B1E9 /* QCCellViewModel.swift in Sources */,
+				3936EE5D2184B4000073B1E9 /* QCBasicHeaderCollectionReusableView.swift in Sources */,
+				3936EE552184B4000073B1E9 /* QCDecorationViewInfos.swift in Sources */,
+				3936EE452184B4000073B1E9 /* QCTableViewModelDelegate.swift in Sources */,
+				3936EE502184B4000073B1E9 /* QCFatTitleCollectionViewCell.swift in Sources */,
+				3936EE482184B4000073B1E9 /* QCTableCellViewModel.swift in Sources */,
+				3936EE462184B4000073B1E9 /* QCSectionHeaderFooterView.swift in Sources */,
+				3936EE492184B4000073B1E9 /* QCViewControllerViewModel.swift in Sources */,
+				3936EE542184B4000073B1E9 /* QCCollectionViewFlowLayout.swift in Sources */,
+				3936EE4B2184B4000073B1E9 /* QCCollectionViewModel.swift in Sources */,
+				3936EE4A2184B4000073B1E9 /* QCViewModel.swift in Sources */,
+				3936EE522184B4000073B1E9 /* QCCollectionCellViewModel.swift in Sources */,
+				3936EE402184B4000073B1E9 /* QCSection.swift in Sources */,
+				3936EE4D2184B4000073B1E9 /* QCFatTitleSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391BE3542184B2A200A2CA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EE8F2184B4FE0073B1E9 /* QCScrollViewViewModelTests.swift in Sources */,
+				3936EE882184B4FE0073B1E9 /* QCCollectionViewModelTests.swift in Sources */,
+				3936EE8D2184B4FE0073B1E9 /* QCBasicFatBoldCollectionReusableViewStyleTests.swift in Sources */,
+				3936EE7F2184B4FE0073B1E9 /* QCMockCollectionViewReusableViewModel.swift in Sources */,
+				3936EE862184B4FE0073B1E9 /* QCFatTitleCellViewModelTests.swift in Sources */,
+				3936EE952184B4FE0073B1E9 /* QCTableViewModelTests.swift in Sources */,
+				3936EE8B2184B4FE0073B1E9 /* QCMockCollectionViewModelDelegate.swift in Sources */,
+				3936EE8A2184B4FE0073B1E9 /* QCCollectionViewSectionTests.swift in Sources */,
+				3936EE912184B4FE0073B1E9 /* QCSectionTests.swift in Sources */,
+				3936EE832184B4FE0073B1E9 /* QCCollectionViewFlowLayoutTests.swift in Sources */,
+				3936EE962184B4FE0073B1E9 /* QCMockTableCellViewModel.swift in Sources */,
+				3936EE812184B4FE0073B1E9 /* QCFatTitleSectionTests.swift in Sources */,
+				3936EE922184B4FE0073B1E9 /* QCMockTableView.swift in Sources */,
+				3936EE822184B4FE0073B1E9 /* QCMockCollectionView.swift in Sources */,
+				3936EE8E2184B4FE0073B1E9 /* QCCellViewModelTests.swift in Sources */,
+				3936EE8C2184B4FE0073B1E9 /* QCBasicBoldCollectionReusableViewStyleTests.swift in Sources */,
+				3936EE842184B4FE0073B1E9 /* QCMockCollectionCellViewModel.swift in Sources */,
+				3936EE802184B4FE0073B1E9 /* QCMockCollectionCell.swift in Sources */,
+				3936EE872184B4FE0073B1E9 /* QCCollectionViewModelDelegateTests.swift in Sources */,
+				3936EE932184B4FE0073B1E9 /* QCMockViewModelDelegate.swift in Sources */,
+				3936EE852184B4FE0073B1E9 /* QCCollectionCellViewModelTests.swift in Sources */,
+				3936EE972184B4FE0073B1E9 /* QCTableCellViewModelTests.swift in Sources */,
+				3936EE942184B4FE0073B1E9 /* QCTableSectionTests.swift in Sources */,
+				3936EE902184B4FE0073B1E9 /* QCMockTableViewModelDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EE992184B5E60073B1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EEBB2184B6080073B1E9 /* QCDeviceHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936EEA12184B5E60073B1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936EEAD2184B5E60073B1E9 /* QCDeviceHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +1096,51 @@
 			isa = PBXTargetDependency;
 			target = 391BE2F82184AC8000A2CA96 /* Consequat */;
 			targetProxy = 391BE30E2184AC8200A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE32C2184ADC800A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE3202184ADC700A2CA96 /* QCNavigation */;
+			targetProxy = 391BE32B2184ADC800A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE32E2184ADC800A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE2F82184AC8000A2CA96 /* Consequat */;
+			targetProxy = 391BE32D2184ADC800A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE3352184ADC800A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE3202184ADC700A2CA96 /* QCNavigation */;
+			targetProxy = 391BE3342184ADC800A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE35B2184B2A200A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE34F2184B2A200A2CA96 /* QCViewModel */;
+			targetProxy = 391BE35A2184B2A200A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE35D2184B2A200A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE2F82184AC8000A2CA96 /* Consequat */;
+			targetProxy = 391BE35C2184B2A200A2CA96 /* PBXContainerItemProxy */;
+		};
+		391BE3642184B2A200A2CA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE34F2184B2A200A2CA96 /* QCViewModel */;
+			targetProxy = 391BE3632184B2A200A2CA96 /* PBXContainerItemProxy */;
+		};
+		3936EEA82184B5E60073B1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */;
+			targetProxy = 3936EEA72184B5E60073B1E9 /* PBXContainerItemProxy */;
+		};
+		3936EEAA2184B5E60073B1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391BE2F82184AC8000A2CA96 /* Consequat */;
+			targetProxy = 3936EEA92184B5E60073B1E9 /* PBXContainerItemProxy */;
+		};
+		3936EEB12184B5E60073B1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */;
+			targetProxy = 3936EEB02184B5E60073B1E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -359,6 +1283,7 @@
 		391BE3172184AC8200A2CA96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69992N4T75;
@@ -377,6 +1302,7 @@
 		391BE3182184AC8200A2CA96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69992N4T75;
@@ -434,6 +1360,305 @@
 			};
 			name = Release;
 		};
+		391BE3382184ADC800A2CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCNavigation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		391BE3392184ADC800A2CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCNavigation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		391BE33A2184ADC800A2CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Debug;
+		};
+		391BE33B2184ADC800A2CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Release;
+		};
+		391BE3682184B2A200A2CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		391BE3692184B2A200A2CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		391BE36B2184B2A200A2CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QCViewModelTests/QCViewModelTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Debug;
+		};
+		391BE36C2184B2A200A2CA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QCViewModelTests/QCViewModelTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Release;
+		};
+		3936EEB52184B5E60073B1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCDeviceHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCDeviceHelper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3936EEB62184B5E60073B1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QCDeviceHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCDeviceHelper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3936EEB82184B5E60073B1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCDeviceHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCDeviceHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Debug;
+		};
+		3936EEB92184B5E60073B1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69992N4T75;
+				INFOPLIST_FILE = QCDeviceHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QC.QCDeviceHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consequat.app/Consequat";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +1685,60 @@
 			buildConfigurations = (
 				391BE31A2184AC8200A2CA96 /* Debug */,
 				391BE31B2184AC8200A2CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391BE33C2184ADC800A2CA96 /* Build configuration list for PBXNativeTarget "QCNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391BE3382184ADC800A2CA96 /* Debug */,
+				391BE3392184ADC800A2CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391BE33E2184ADC800A2CA96 /* Build configuration list for PBXNativeTarget "QCNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391BE33A2184ADC800A2CA96 /* Debug */,
+				391BE33B2184ADC800A2CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391BE3672184B2A200A2CA96 /* Build configuration list for PBXNativeTarget "QCViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391BE3682184B2A200A2CA96 /* Debug */,
+				391BE3692184B2A200A2CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391BE36A2184B2A200A2CA96 /* Build configuration list for PBXNativeTarget "QCViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391BE36B2184B2A200A2CA96 /* Debug */,
+				391BE36C2184B2A200A2CA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3936EEB42184B5E60073B1E9 /* Build configuration list for PBXNativeTarget "QCDeviceHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936EEB52184B5E60073B1E9 /* Debug */,
+				3936EEB62184B5E60073B1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3936EEB72184B5E60073B1E9 /* Build configuration list for PBXNativeTarget "QCDeviceHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936EEB82184B5E60073B1E9 /* Debug */,
+				3936EEB92184B5E60073B1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
