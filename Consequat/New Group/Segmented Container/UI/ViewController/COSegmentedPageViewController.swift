@@ -35,10 +35,9 @@ class COSegmentedPageViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        guard let viewModel = self.viewModel,
-        let viewControllerToShow = viewModel.initEntry.viewController else {return}
+        guard let viewModel = self.viewModel else {return}
         
-        self.setViewControllers([viewControllerToShow], direction: .forward, animated: true, completion: nil)
+        self.setViewControllers([viewModel.initController], direction: .forward, animated: true, completion: nil)
         self.dataSource = self.viewModel
         self.delegate = self.viewModel
     }

@@ -13,27 +13,19 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
     
     // MARK: - Properties
     
-    let itemsEntry: [QCRoutingEntry]
-    let initEntry: QCRoutingEntry
-    lazy var itemsController: [UIViewController] = {
-        var vcs = [UIViewController]()
-        for item in self.itemsEntry {
-            if let vc = item.viewController {
-                vcs.append(vc)
-            }
-        }
-        return vcs
-    }()
+    let itemsController: [UIViewController]
+    let initController: UIViewController
+    
     var currentIndex = 0
     
     weak var segmentedPageDelegate: COSegmentedPageContainerDelegate?
 
     // MARK: - Initializer
     
-    init(itemsEntry: [QCRoutingEntry],
-         initEntry: QCRoutingEntry) {
-        self.itemsEntry = itemsEntry
-        self.initEntry = initEntry
+    init(itemsController: [UIViewController],
+         initController: UIViewController) {
+        self.itemsController = itemsController
+        self.initController = initController
     }
     
     // MARK: - Page control
@@ -71,7 +63,7 @@ extension COSegmentedPageViewControllerViewModel: UIPageViewControllerDataSource
     // MARK: - View controller for index
     
     func processNewPage(index: Int) -> UIViewController? {
-        guard index > 0,
+        guard index >= 0,
             index < self.itemsController.count else {return nil}
         
         self.currentIndex = index

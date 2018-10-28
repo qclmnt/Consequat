@@ -24,6 +24,7 @@
             <subviews>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7fj-PJ-4af" customClass="COSegmentedControl" customModule="Consequat" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="627" width="375" height="41"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="wpa-47-JXa"/>
                     </constraints>
@@ -41,7 +42,6 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="NHL-Wz-yJp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="17p-L0-om8"/>
                 <constraint firstItem="7fj-PJ-4af" firstAttribute="top" secondItem="NHL-Wz-yJp" secondAttribute="bottom" id="5xo-L2-D9A"/>

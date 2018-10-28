@@ -8,16 +8,16 @@
 
 import QCNavigation
 
-enum PickerType {
+enum PickerType: Int {
     case library
     case camera
     
-    func routingEntry() -> QCRoutingEntry {
+    func viewController() -> UIViewController? {
         switch self {
         case .library:
-            return COLibraryPickerRoutingEntry()
+            return COLibraryPickerRoutingEntry().viewController
         case .camera:
-            return COCameraPickerRoutingEntry()
+            return COCameraPickerRoutingEntry().viewController
         }
     }
 }
@@ -35,9 +35,13 @@ struct COImagePickerRoutingEntry: QCRoutingEntry {
     }
     
     var viewController: UIViewController? {
-        let routingEntries = [PickerType.library.routingEntry(),PickerType.camera.routingEntry()] as [QCRoutingEntry]
-        let viewModel = COSegmentedPageViewControllerViewModel(itemsEntry: routingEntries,
-                                                               initEntry: pickerType.routingEntry())
+        
+        guard let libraryViewController = PickerType.library.viewController(),
+            let cameraViewController = PickerType.camera.viewController() else {return nil}
+        
+        let viewControllers = [libraryViewController ,cameraViewController] as [UIViewController]
+        let viewModel = COSegmentedPageViewControllerViewModel(itemsController: viewControllers,
+                                                               initController: viewControllers[pickerType.rawValue])
         
         return COSegmentedContainerViewController(viewModel: viewModel)
     }
