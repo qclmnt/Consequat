@@ -8,6 +8,44 @@
 
 import QCViewModel
 
+import Photos
+
 class COLibraryPickerCollectionViewControllerViewModel: QCCollectionViewModel {
 
+    // MARK: - YMMViewModel
+    
+    override func load() {
+        super.load() // This will call viewModelDidStartLoad
+        self.loadAfterPermission(status: PHPhotoLibrary.authorizationStatus())
+    }
+    
+    // MARK: - Load from device
+    
+    func loadAfterPermission(status: PHAuthorizationStatus) {
+        
+        if (status == PHAuthorizationStatus.authorized) {
+            
+            // Access has been granted
+            self.loadSections()
+            self.delegate?.viewModelDidLoad()
+            
+        } else if (status == PHAuthorizationStatus.denied) {
+            
+            // Access has been denied
+            self.delegate?.viewModelDidFail(statusCode: 0)
+            
+        } else if (status == PHAuthorizationStatus.notDetermined) {
+            
+            // Access has not been determined
+            PHPhotoLibrary.requestAuthorization({ (newStatus) in
+                
+                // Request authorization is asynchronous
+                DispatchQueue.main.async {
+                    self.loadAfterPermission(status: newStatus)
+                }
+            })
+            
+        }
+    }
+    
 }
