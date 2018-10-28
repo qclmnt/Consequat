@@ -96,6 +96,7 @@
 		3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */; };
 		39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */; };
 		39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */; };
+		39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -283,6 +284,7 @@
 		3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewControllerViewModel.swift; sourceTree = "<group>"; };
 		39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewController.swift; sourceTree = "<group>"; };
 		39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -747,6 +749,7 @@
 			isa = PBXGroup;
 			children = (
 				39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */,
+				39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1076,6 +1079,7 @@
 				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
 				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
+				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
