@@ -12,7 +12,7 @@ import Photos
 
 class COLibraryPickerCollectionViewControllerViewModel: QCCollectionViewModel {
 
-    // MARK: - YMMViewModel
+    // MARK: - QCViewModel
     
     override func load() {
         super.load() // This will call viewModelDidStartLoad

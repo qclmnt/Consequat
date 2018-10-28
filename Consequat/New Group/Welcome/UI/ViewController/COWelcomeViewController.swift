@@ -12,7 +12,7 @@ class COWelcomeViewController: UIViewController {
     
     // MARK: - Properties
     
-    let viewModel: COWelcomeViewControllerViewModel?
+    var viewModel: COWelcomeViewControllerViewModel?
     
     @IBOutlet weak var welcomeImageView: UIImageView?
     @IBOutlet weak var libraryButton: UIButton?
@@ -32,19 +32,6 @@ class COWelcomeViewController: UIViewController {
         
         super.init(nibName: String(describing: COWelcomeViewController.self),
                    bundle: nil)
-    }
-    
-    // MARK: - View life cycle
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        guard let viewModel = self.viewModel else {return}
-        
-        self.welcomeImageView?.image = UIImage(named: viewModel.welcomeImageName)
-        self.libraryButton?.setImage(UIImage(named: viewModel.libraryImageName), for: .normal)
-        self.cameraButton?.setImage(UIImage(named: viewModel.cameraImageName), for: .normal)
-        
     }
     
     // MARK: - IBActions

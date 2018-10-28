@@ -12,20 +12,17 @@ struct COWelcomeViewControllerViewModel: QCViewControllerViewModel {
     
     // MARK: - Properties
     
-    let welcomeImageName = "welcome"
-    let libraryImageName = "library"
-    let cameraImageName = "camera"
-    
-    let libraryRoutingEntry = COLibraryPickerRoutingEntry()
+    lazy var libraryRoutingEntry = COLibraryPickerRoutingEntry()
+    lazy var cameraRoutingEntry = COCameraPickerRoutingEntry()
     
     // MARK: - Actions
     
-    func routeToLibrary() {
+    mutating func routeToLibrary() {
         COAppEnvironment.shared().routing?.route(to: self.libraryRoutingEntry)
     }
     
-    func routeToCamera() {
-        // Todo: Route to camera routing entry
+    mutating func routeToCamera() {
+        COAppEnvironment.shared().routing?.route(to: self.cameraRoutingEntry)
     }
 
 }
