@@ -11,11 +11,15 @@ import QCViewModel
 
 protocol COCameraPickerViewModelProtocol: QCViewControllerViewModel {
     
+    // MARK: - Session management
     func startSession(capturePhotoView: UIView)
     func stopSession()
     
+    // MARK: - Tools
     func takePicture()
     func updateFlash(flashView: UIView)
     func switchCamera()
     
+    // MARK: - Options
+    var optionsSection: QCCollectionViewSection? {get}
 }
