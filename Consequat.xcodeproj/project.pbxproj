@@ -94,6 +94,8 @@
 		3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */; };
 		3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */; };
 		3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */; };
+		39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */; };
+		39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +281,8 @@
 		3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewController.swift; sourceTree = "<group>"; };
 		3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COWelcomeViewController.xib; sourceTree = "<group>"; };
 		3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewController.swift; sourceTree = "<group>"; };
+		39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -665,6 +669,7 @@
 		3936EEE22184BEF50073B1E9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98342185AAB2004C89B7 /* Image Picker */,
 				3936EEE32184BF030073B1E9 /* Welcome */,
 			);
 			name = Features;
@@ -703,6 +708,47 @@
 				3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39CE98342185AAB2004C89B7 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98352185AABF004C89B7 /* Library */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		39CE98352185AABF004C89B7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98362185AAEC004C89B7 /* UI */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		39CE98362185AAEC004C89B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39CE983B2185AB33004C89B7 /* ViewModel */,
+				39CE983A2185AB2A004C89B7 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39CE983A2185AB2A004C89B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39CE983B2185AB33004C89B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1027,7 +1073,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE2FF2184AC8000A2CA96 /* ViewController.swift in Sources */,
+				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
+				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
