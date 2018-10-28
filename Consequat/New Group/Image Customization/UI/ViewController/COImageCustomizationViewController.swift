@@ -35,6 +35,7 @@ class COImageCustomizationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationController?.navigationBar.tintColor = .white
         self.photoImageView?.image = self.viewModel?.image
     }
     

@@ -73,7 +73,7 @@ class COCameraPickerViewControllerViewModel: COCameraPickerViewModelProtocol {
         case .authorized:
             
             self.captureSession.captureImage { (image) in
-                
+                COAppEnvironment.shared().routing?.route(to: COImageCustomizationRoutingEntry(image: image))
             }
             
             break
