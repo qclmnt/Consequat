@@ -121,6 +121,11 @@
 		39CE98C62185FC9D004C89B7 /* COCameraPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98C42185FC9D004C89B7 /* COCameraPickerViewController.xib */; };
 		39CE98CA2185FD02004C89B7 /* COImagePickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98C92185FD02004C89B7 /* COImagePickerRoutingEntry.swift */; };
 		39CE98CC218603CD004C89B7 /* QCDismissRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98CB218603CD004C89B7 /* QCDismissRoutingEntry.swift */; };
+		39CE98D221862801004C89B7 /* COImageCustomizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98D021862801004C89B7 /* COImageCustomizationViewController.swift */; };
+		39CE98D321862801004C89B7 /* COImageCustomizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98D121862801004C89B7 /* COImageCustomizationViewController.xib */; };
+		39CE98D621862919004C89B7 /* COImageCustomizationViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98D521862919004C89B7 /* COImageCustomizationViewControllerViewModel.swift */; };
+		39CE98D92186336B004C89B7 /* COGestureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98D82186336B004C89B7 /* COGestureImageView.swift */; };
+		39CE98DC21863A4A004C89B7 /* COImageCustomizationRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98DB21863A4A004C89B7 /* COImageCustomizationRoutingEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -356,6 +361,11 @@
 		39CE98C42185FC9D004C89B7 /* COCameraPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = COCameraPickerViewController.xib; sourceTree = "<group>"; };
 		39CE98C92185FD02004C89B7 /* COImagePickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COImagePickerRoutingEntry.swift; sourceTree = "<group>"; };
 		39CE98CB218603CD004C89B7 /* QCDismissRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCDismissRoutingEntry.swift; sourceTree = "<group>"; };
+		39CE98D021862801004C89B7 /* COImageCustomizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COImageCustomizationViewController.swift; sourceTree = "<group>"; };
+		39CE98D121862801004C89B7 /* COImageCustomizationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COImageCustomizationViewController.xib; sourceTree = "<group>"; };
+		39CE98D521862919004C89B7 /* COImageCustomizationViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COImageCustomizationViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE98D82186336B004C89B7 /* COGestureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COGestureImageView.swift; sourceTree = "<group>"; };
+		39CE98DB21863A4A004C89B7 /* COImageCustomizationRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COImageCustomizationRoutingEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -763,6 +773,8 @@
 		3936EEE22184BEF50073B1E9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98D721863347004C89B7 /* Gesture Image */,
+				39CE98CD218627BD004C89B7 /* Image Customization */,
 				39CE98AA2185D46D004C89B7 /* Segmented Container */,
 				39CE98342185AAB2004C89B7 /* Image Picker */,
 				3936EEE32184BF030073B1E9 /* Welcome */,
@@ -998,6 +1010,57 @@
 			isa = PBXGroup;
 			children = (
 				39CE98C92185FD02004C89B7 /* COImagePickerRoutingEntry.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		39CE98CD218627BD004C89B7 /* Image Customization */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98DA21863A2C004C89B7 /* Navigation */,
+				39CE98CE218627D5004C89B7 /* UI */,
+			);
+			path = "Image Customization";
+			sourceTree = "<group>";
+		};
+		39CE98CE218627D5004C89B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98D4218628E6004C89B7 /* ViewModel */,
+				39CE98CF218627DA004C89B7 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39CE98CF218627DA004C89B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98D021862801004C89B7 /* COImageCustomizationViewController.swift */,
+				39CE98D121862801004C89B7 /* COImageCustomizationViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39CE98D4218628E6004C89B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98D521862919004C89B7 /* COImageCustomizationViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39CE98D721863347004C89B7 /* Gesture Image */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98D82186336B004C89B7 /* COGestureImageView.swift */,
+			);
+			path = "Gesture Image";
+			sourceTree = "<group>";
+		};
+		39CE98DA21863A2C004C89B7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98DB21863A4A004C89B7 /* COImageCustomizationRoutingEntry.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -1317,6 +1380,7 @@
 				39CE98C62185FC9D004C89B7 /* COCameraPickerViewController.xib in Resources */,
 				391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */,
 				39CE98B12185D686004C89B7 /* COSegmentedContainerViewController.xib in Resources */,
+				39CE98D321862801004C89B7 /* COImageCustomizationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1396,14 +1460,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CE98CA2185FD02004C89B7 /* COImagePickerRoutingEntry.swift in Sources */,
+				39CE98D621862919004C89B7 /* COImageCustomizationViewControllerViewModel.swift in Sources */,
 				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				39CE98C22185FC90004C89B7 /* COCameraPickerViewModelProtocol.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
 				39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */,
 				39CE98BE2185FC7C004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */,
+				39CE98D221862801004C89B7 /* COImageCustomizationViewController.swift in Sources */,
 				39CE98C12185FC90004C89B7 /* COCameraPickerViewControllerViewModel.swift in Sources */,
 				39CE98B62185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift in Sources */,
+				39CE98D92186336B004C89B7 /* COGestureImageView.swift in Sources */,
 				39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */,
+				39CE98DC21863A4A004C89B7 /* COImageCustomizationRoutingEntry.swift in Sources */,
 				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
 				39CE98C52185FC9D004C89B7 /* COCameraPickerViewController.swift in Sources */,
 				39CE98B32185D9B6004C89B7 /* COSegmentedPageViewController.swift in Sources */,

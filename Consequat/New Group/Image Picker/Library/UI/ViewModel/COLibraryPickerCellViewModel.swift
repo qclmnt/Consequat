@@ -49,9 +49,24 @@ class COLibraryPickerCellViewModel: QCCollectionCellViewModel {
                                        contentMode: .aspectFill,
                                        options: nil,
                                        resultHandler: { image, _ in
-            
-            libraryPickerCell.photoImageView?.image = image
+                                        libraryPickerCell.photoImageView?.image = image
         })
+        
+    }
+    
+    override func didSelect(fromVC: UIViewController?) {
+        let imageRequestOption = PHImageRequestOptions()
+        imageRequestOption.isSynchronous = true
+        self.imageManager.requestImage(for: self.asset,
+                                       targetSize: UIScreen.main.bounds.size,
+                                       contentMode: .aspectFill,
+                                       options: imageRequestOption,
+                                       resultHandler: { image, _ in
+                                        if let imageToCustomize = image {
+                                            COAppEnvironment.shared().routing?.route(to: COImageCustomizationRoutingEntry(image: imageToCustomize))
+                                        }
+        })
+        
     }
     
 }
