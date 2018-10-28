@@ -15,34 +15,27 @@ class COLibraryPickerSection: QCCollectionViewSection {
     // MARK: - QCCollectionViewSection
     
     override var edgeInsets: UIEdgeInsets {
-        get {
-            return UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
-        }
+        return UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
     }
     
     override var numberOfColumns: UInt {
-        get {
-            return 3
-        }
+        return 3
     }
     
     override var minimumLineSpacing: CGFloat {
-        get {
-            return 4
-        }
+        return 4
     }
     
     override var minimumInteritemSpacing: CGFloat {
-        get {
-            return 4
-        }
+        return 4
     }
     
     override func setup() {
         self.items = [QCCellViewModel]()
         
-        self.fetchResult.enumerateObjects({ [unowned self] (asset, index, stop) in
-            
+        self.fetchResult.enumerateObjects({ [weak self] (asset, index, stop) in
+            let cellViewModel = COLibraryPickerCellViewModel(photoAsset: asset)
+            self?.items.append(cellViewModel)
         })
     }
     

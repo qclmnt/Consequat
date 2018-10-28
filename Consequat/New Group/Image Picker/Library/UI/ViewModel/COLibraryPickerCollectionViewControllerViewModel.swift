@@ -19,6 +19,10 @@ class COLibraryPickerCollectionViewControllerViewModel: QCCollectionViewModel {
         self.loadAfterPermission(status: PHPhotoLibrary.authorizationStatus())
     }
     
+    override func loadSections() {
+        self.sections = [COLibraryPickerSection()]
+    }
+    
     // MARK: - Load from device
     
     func loadAfterPermission(status: PHAuthorizationStatus) {

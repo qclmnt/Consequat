@@ -97,6 +97,9 @@
 		39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */; };
 		39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */; };
 		39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */; };
+		39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */; };
+		39CE98442185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */; };
+		39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -285,6 +288,9 @@
 		39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewController.swift; sourceTree = "<group>"; };
 		39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewControllerViewModel.swift; sourceTree = "<group>"; };
 		39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerSection.swift; sourceTree = "<group>"; };
+		39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COLibraryPickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -731,6 +737,7 @@
 		39CE98362185AAEC004C89B7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98402185B068004C89B7 /* View */,
 				39CE983B2185AB33004C89B7 /* ViewModel */,
 				39CE983A2185AB2A004C89B7 /* ViewController */,
 			);
@@ -750,8 +757,18 @@
 			children = (
 				39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */,
 				39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */,
+				39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39CE98402185B068004C89B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */,
+				39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1008,6 +1025,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE3072184AC8200A2CA96 /* LaunchScreen.storyboard in Resources */,
+				39CE98442185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib in Resources */,
 				3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */,
 				391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */,
 				391BE3022184AC8000A2CA96 /* Main.storyboard in Resources */,
@@ -1078,9 +1096,11 @@
 				391BE2FF2184AC8000A2CA96 /* ViewController.swift in Sources */,
 				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
+				39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */,
 				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
 				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
+				39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
