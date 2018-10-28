@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="COSegmentedContainerViewController" customModule="Consequat" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="NHL-Wz-yJp" id="06M-Af-Sln"/>
+                <outlet property="segmentedControl" destination="7fj-PJ-4af" id="SQn-Nn-AfO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7fj-PJ-4af" customClass="COSegmentedControl" customModule="Consequat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="627" width="375" height="41"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wpa-47-JXa"/>
+                    </constraints>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                    <color key="tintColor" name="darkGrayBackground"/>
+                    <connections>
+                        <action selector="segmentedControllerValueChanged:" destination="-1" eventType="valueChanged" id="44u-9y-pHi"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHL-Wz-yJp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="NHL-Wz-yJp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="17p-L0-om8"/>
+                <constraint firstItem="7fj-PJ-4af" firstAttribute="top" secondItem="NHL-Wz-yJp" secondAttribute="bottom" id="5xo-L2-D9A"/>
+                <constraint firstAttribute="top" secondItem="NHL-Wz-yJp" secondAttribute="top" id="64Z-fn-HL1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7fj-PJ-4af" secondAttribute="trailing" id="ByE-IC-3CU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NHL-Wz-yJp" secondAttribute="trailing" id="IdW-Zv-0yR"/>
+                <constraint firstItem="7fj-PJ-4af" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Qk4-Zo-0dI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7fj-PJ-4af" secondAttribute="bottom" id="Zm7-yr-1Jd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="darkGrayBackground">
+            <color red="0.071000002324581146" green="0.071000002324581146" blue="0.071000002324581146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
