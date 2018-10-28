@@ -9,10 +9,15 @@
 import AVFoundation
 
 import QCCaptureSession
+import QCViewModel
 
 class COCameraPickerViewControllerViewModel: COCameraPickerViewModelProtocol {
     
     let captureSession = QCCaptureSession()
+    
+    var optionsSection: QCCollectionViewSection? {
+        return nil
+    }
     
     // MARK: - Session
     
