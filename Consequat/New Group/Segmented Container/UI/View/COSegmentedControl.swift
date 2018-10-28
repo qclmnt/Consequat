@@ -10,6 +10,6 @@ import UIKit
 
 class COSegmentedControl: UISegmentedControl {
 
-    
+    // Customize Segmented Control layout
 
 }

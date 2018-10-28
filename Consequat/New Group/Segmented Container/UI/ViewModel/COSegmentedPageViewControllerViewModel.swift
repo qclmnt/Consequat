@@ -14,6 +14,7 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
     // MARK: - Properties
     
     let itemsEntry: [QCRoutingEntry]
+    let initEntry: QCRoutingEntry
     lazy var itemsController: [UIViewController] = {
         var vcs = [UIViewController]()
         for item in self.itemsEntry {
@@ -29,8 +30,10 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
 
     // MARK: - Initializer
     
-    init(itemsEntry: [QCRoutingEntry]) {
+    init(itemsEntry: [QCRoutingEntry],
+         initEntry: QCRoutingEntry) {
         self.itemsEntry = itemsEntry
+        self.initEntry = initEntry
     }
     
     // MARK: - Page control

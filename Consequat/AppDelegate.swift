@@ -8,6 +8,8 @@
 
 import UIKit
 
+import QCNavigation
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
