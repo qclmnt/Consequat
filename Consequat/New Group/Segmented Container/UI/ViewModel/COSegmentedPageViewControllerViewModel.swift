@@ -42,6 +42,12 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
                                           completion: nil)
     }
     
+    // MARK: - Close
+    
+    @objc func closeSegmentedPage() {
+        COAppEnvironment.shared().routing?.route(to: QCDismissRoutingEntry())
+    }
+    
 }
 
 extension COSegmentedPageViewControllerViewModel: UIPageViewControllerDataSource {

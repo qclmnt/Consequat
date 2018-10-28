@@ -120,6 +120,7 @@
 		39CE98C52185FC9D004C89B7 /* COCameraPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98C32185FC9D004C89B7 /* COCameraPickerViewController.swift */; };
 		39CE98C62185FC9D004C89B7 /* COCameraPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98C42185FC9D004C89B7 /* COCameraPickerViewController.xib */; };
 		39CE98CA2185FD02004C89B7 /* COImagePickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98C92185FD02004C89B7 /* COImagePickerRoutingEntry.swift */; };
+		39CE98CC218603CD004C89B7 /* QCDismissRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98CB218603CD004C89B7 /* QCDismissRoutingEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +355,7 @@
 		39CE98C32185FC9D004C89B7 /* COCameraPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COCameraPickerViewController.swift; sourceTree = "<group>"; };
 		39CE98C42185FC9D004C89B7 /* COCameraPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = COCameraPickerViewController.xib; sourceTree = "<group>"; };
 		39CE98C92185FD02004C89B7 /* COImagePickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COImagePickerRoutingEntry.swift; sourceTree = "<group>"; };
+		39CE98CB218603CD004C89B7 /* QCDismissRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCDismissRoutingEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -507,6 +509,7 @@
 				391BE3232184ADC800A2CA96 /* QCNavigation.h */,
 				391BE3242184ADC800A2CA96 /* Info.plist */,
 				39CE984A2185B820004C89B7 /* QCRouting.swift */,
+				39CE98CB218603CD004C89B7 /* QCDismissRoutingEntry.swift */,
 			);
 			path = QCNavigation;
 			sourceTree = "<group>";
@@ -1428,6 +1431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CE98CC218603CD004C89B7 /* QCDismissRoutingEntry.swift in Sources */,
 				391BE3452184ADF700A2CA96 /* QCNavigator.swift in Sources */,
 				391BE3462184ADF700A2CA96 /* QCRoutingEntry.swift in Sources */,
 				391BE3432184ADF700A2CA96 /* QCNavigationStyle.swift in Sources */,

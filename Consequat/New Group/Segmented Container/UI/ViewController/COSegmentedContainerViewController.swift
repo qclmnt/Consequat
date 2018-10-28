@@ -14,6 +14,11 @@ class COSegmentedContainerViewController: UIViewController {
     
     @IBOutlet weak var containerView: UIView?
     @IBOutlet weak var segmentedControl: COSegmentedControl?
+    lazy var cancelBarButtonItem: UIBarButtonItem = {
+        let barButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self.viewModel, action: #selector(COSegmentedPageViewControllerViewModel.closeSegmentedPage))
+        barButtonItem.tintColor = .white
+        return barButtonItem
+    }()
     
     let pageViewController: COSegmentedPageViewController?
     let viewModel: COSegmentedPageViewControllerViewModel?
@@ -48,7 +53,9 @@ class COSegmentedContainerViewController: UIViewController {
             self.containerView?.addSubview(pageViewController.view)
             pageViewController.didMove(toParent: self)
         }
-    
+        
+        self.navigationItem.rightBarButtonItem = self.cancelBarButtonItem
+        self.navigationController?.navigationBar.barTintColor = UIColor(named: "darkGrayBackground")
     }
     
     // MARK: - IBActions

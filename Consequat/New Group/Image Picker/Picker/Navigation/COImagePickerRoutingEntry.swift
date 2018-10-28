@@ -43,7 +43,8 @@ struct COImagePickerRoutingEntry: QCRoutingEntry {
         let viewModel = COSegmentedPageViewControllerViewModel(itemsController: viewControllers,
                                                                initController: viewControllers[pickerType.rawValue])
         
-        return COSegmentedContainerViewController(viewModel: viewModel)
+        let viewController = COSegmentedContainerViewController(viewModel: viewModel)
+        return UINavigationController(rootViewController: viewController)
     }
 
 }
