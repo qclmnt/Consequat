@@ -14,9 +14,9 @@ class COWelcomeViewController: UIViewController {
     
     let viewModel: COWelcomeViewControllerViewModel?
     
-    @IBOutlet weak var welcomeImageView: UIImageView!
-    @IBOutlet weak var libraryButton: UIButton!
-    @IBOutlet weak var cameraButton: UIButton!
+    @IBOutlet weak var welcomeImageView: UIImageView?
+    @IBOutlet weak var libraryButton: UIButton?
+    @IBOutlet weak var cameraButton: UIButton?
     
     // MARK: - Initialization
     
@@ -41,9 +41,9 @@ class COWelcomeViewController: UIViewController {
 
         guard let viewModel = self.viewModel else {return}
         
-        self.welcomeImageView.image = UIImage(named: viewModel.welcomeImageName)
-        self.libraryButton.setImage(UIImage(named: viewModel.libraryImageName), for: .normal)
-        self.cameraButton.setImage(UIImage(named: viewModel.cameraImageName), for: .normal)
+        self.welcomeImageView?.image = UIImage(named: viewModel.welcomeImageName)
+        self.libraryButton?.setImage(UIImage(named: viewModel.libraryImageName), for: .normal)
+        self.cameraButton?.setImage(UIImage(named: viewModel.cameraImageName), for: .normal)
         
     }
     

@@ -94,6 +94,16 @@
 		3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */; };
 		3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */; };
 		3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */; };
+		39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */; };
+		39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */; };
+		39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */; };
+		39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */; };
+		39CE98442185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */; };
+		39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */; };
+		39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */; };
+		39CE984B2185B820004C89B7 /* QCRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984A2185B820004C89B7 /* QCRouting.swift */; };
+		39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984D2185B9A1004C89B7 /* COEnvironment.swift */; };
+		39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +289,16 @@
 		3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewController.swift; sourceTree = "<group>"; };
 		3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COWelcomeViewController.xib; sourceTree = "<group>"; };
 		3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewController.swift; sourceTree = "<group>"; };
+		39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerSection.swift; sourceTree = "<group>"; };
+		39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COLibraryPickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCellViewModel.swift; sourceTree = "<group>"; };
+		39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerRoutingEntry.swift; sourceTree = "<group>"; };
+		39CE984A2185B820004C89B7 /* QCRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCRouting.swift; sourceTree = "<group>"; };
+		39CE984D2185B9A1004C89B7 /* COEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COEnvironment.swift; sourceTree = "<group>"; };
+		39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COAppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +403,7 @@
 		391BE2FB2184AC8000A2CA96 /* Consequat */ = {
 			isa = PBXGroup;
 			children = (
+				39CE984C2185B983004C89B7 /* AppEnvironment */,
 				3936EEE22184BEF50073B1E9 /* Features */,
 				391BE2FC2184AC8000A2CA96 /* AppDelegate.swift */,
 				391BE2FE2184AC8000A2CA96 /* ViewController.swift */,
@@ -412,6 +433,7 @@
 				391BE3422184ADF700A2CA96 /* QCRoutingEntry.swift */,
 				391BE3232184ADC800A2CA96 /* QCNavigation.h */,
 				391BE3242184ADC800A2CA96 /* Info.plist */,
+				39CE984A2185B820004C89B7 /* QCRouting.swift */,
 			);
 			path = QCNavigation;
 			sourceTree = "<group>";
@@ -665,6 +687,7 @@
 		3936EEE22184BEF50073B1E9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98342185AAB2004C89B7 /* Image Picker */,
 				3936EEE32184BF030073B1E9 /* Welcome */,
 			);
 			name = Features;
@@ -703,6 +726,77 @@
 				3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39CE98342185AAB2004C89B7 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98352185AABF004C89B7 /* Library */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		39CE98352185AABF004C89B7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98472185B771004C89B7 /* Navigation */,
+				39CE98362185AAEC004C89B7 /* UI */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		39CE98362185AAEC004C89B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98402185B068004C89B7 /* View */,
+				39CE983B2185AB33004C89B7 /* ViewModel */,
+				39CE983A2185AB2A004C89B7 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39CE983A2185AB2A004C89B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98372185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		39CE983B2185AB33004C89B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39CE983C2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift */,
+				39CE983E2185AF80004C89B7 /* COLibraryPickerSection.swift */,
+				39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39CE98402185B068004C89B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98412185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift */,
+				39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39CE98472185B771004C89B7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		39CE984C2185B983004C89B7 /* AppEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				39CE984D2185B9A1004C89B7 /* COEnvironment.swift */,
+				39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */,
+			);
+			path = AppEnvironment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -959,6 +1053,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE3072184AC8200A2CA96 /* LaunchScreen.storyboard in Resources */,
+				39CE98442185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib in Resources */,
 				3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */,
 				391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */,
 				391BE3022184AC8000A2CA96 /* Main.storyboard in Resources */,
@@ -1027,8 +1122,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE2FF2184AC8000A2CA96 /* ViewController.swift in Sources */,
+				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
+				39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */,
+				39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */,
+				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
+				39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */,
+				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
+				39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */,
+				39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1049,6 +1152,7 @@
 				391BE3462184ADF700A2CA96 /* QCRoutingEntry.swift in Sources */,
 				391BE3432184ADF700A2CA96 /* QCNavigationStyle.swift in Sources */,
 				391BE3442184ADF700A2CA96 /* QCPopRoutingEntry.swift in Sources */,
+				39CE984B2185B820004C89B7 /* QCRouting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
