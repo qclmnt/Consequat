@@ -12,10 +12,6 @@ struct COWelcomeViewControllerViewModel: QCViewControllerViewModel {
     
     // MARK: - Properties
     
-    let welcomeImageName = "welcome"
-    let libraryImageName = "library"
-    let cameraImageName = "camera"
-    
     lazy var libraryRoutingEntry = COLibraryPickerRoutingEntry()
     lazy var cameraRoutingEntry = COCameraPickerRoutingEntry()
     

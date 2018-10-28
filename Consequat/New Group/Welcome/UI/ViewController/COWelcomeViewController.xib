@@ -23,7 +23,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="swk-Kj-rl1">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="swk-Kj-rl1">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="367"/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VCt-C7-kbR">
@@ -32,13 +32,14 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-s5-hgn">
                             <rect key="frame" x="0.0" y="0.0" width="187.5" height="300"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBz-cC-Xu8">
+                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBz-cC-Xu8">
                                     <rect key="frame" x="34" y="90" width="120" height="120"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="120" id="Hqw-cm-aCd"/>
                                         <constraint firstAttribute="width" constant="120" id="aOZ-kw-xYa"/>
                                     </constraints>
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="library"/>
                                     <connections>
                                         <action selector="libraryButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="U5G-QE-YUM"/>
                                     </connections>
@@ -53,9 +54,10 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdp-j4-t2z">
                             <rect key="frame" x="187.5" y="0.0" width="187.5" height="300"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Dd-lp-1nh">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Dd-lp-1nh">
                                     <rect key="frame" x="34" y="90" width="120" height="120"/>
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="camera"/>
                                     <connections>
                                         <action selector="cameraButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="CGM-Bu-f6J"/>
                                     </connections>
@@ -100,6 +102,9 @@
         </view>
     </objects>
     <resources>
+        <image name="camera" width="54" height="46"/>
+        <image name="library" width="48" height="48"/>
+        <image name="welcome" width="1366" height="910"/>
         <namedColor name="darkGrayBackground">
             <color red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

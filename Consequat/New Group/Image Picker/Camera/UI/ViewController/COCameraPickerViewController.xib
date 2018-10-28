@@ -36,23 +36,30 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OyP-kg-rrp">
                             <rect key="frame" x="0.0" y="125" width="375" height="142"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btK-Fv-9Tn">
-                                    <rect key="frame" x="164.5" y="56" width="46" height="30"/>
-                                    <state key="normal" title="Button"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btK-Fv-9Tn">
+                                    <rect key="frame" x="152.5" y="36" width="70" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="GQk-87-ziH"/>
+                                        <constraint firstAttribute="height" constant="70" id="MKB-AE-rkV"/>
+                                    </constraints>
+                                    <color key="tintColor" name="darkGrayBackground"/>
+                                    <state key="normal" image="trigger"/>
                                     <connections>
                                         <action selector="triggerButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="N34-ee-bdh"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qM-CX-uZk">
-                                    <rect key="frame" x="55.5" y="56" width="46" height="30"/>
-                                    <state key="normal" title="Button"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qM-CX-uZk">
+                                    <rect key="frame" x="19.5" y="36" width="70" height="70"/>
+                                    <color key="tintColor" name="darkGrayBackground"/>
+                                    <state key="normal" image="switchCamera"/>
                                     <connections>
                                         <action selector="cameraSwipeButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="QOV-vF-AIO"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKu-II-t4A">
-                                    <rect key="frame" x="278.5" y="56" width="46" height="30"/>
-                                    <state key="normal" title="Button"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKu-II-t4A">
+                                    <rect key="frame" x="290.5" y="36" width="70" height="70"/>
+                                    <color key="tintColor" name="darkGrayBackground"/>
+                                    <state key="normal" image="flash"/>
                                     <connections>
                                         <action selector="flashButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="rtv-ua-g5u"/>
                                     </connections>
@@ -61,11 +68,15 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="nKu-II-t4A" firstAttribute="leading" secondItem="btK-Fv-9Tn" secondAttribute="trailing" constant="68" id="9zW-2Z-Du9"/>
+                                <constraint firstItem="7qM-CX-uZk" firstAttribute="height" secondItem="btK-Fv-9Tn" secondAttribute="height" id="HaO-QI-0z1"/>
                                 <constraint firstItem="7qM-CX-uZk" firstAttribute="centerY" secondItem="OyP-kg-rrp" secondAttribute="centerY" id="IOh-bA-Xwl"/>
+                                <constraint firstItem="7qM-CX-uZk" firstAttribute="width" secondItem="btK-Fv-9Tn" secondAttribute="width" id="M0R-IN-7Si"/>
                                 <constraint firstItem="btK-Fv-9Tn" firstAttribute="centerX" secondItem="OyP-kg-rrp" secondAttribute="centerX" id="aO7-c8-ufU"/>
+                                <constraint firstItem="nKu-II-t4A" firstAttribute="height" secondItem="btK-Fv-9Tn" secondAttribute="height" id="g61-m4-N7u"/>
                                 <constraint firstItem="nKu-II-t4A" firstAttribute="centerY" secondItem="OyP-kg-rrp" secondAttribute="centerY" id="o9g-Lj-D1b"/>
                                 <constraint firstItem="btK-Fv-9Tn" firstAttribute="leading" secondItem="7qM-CX-uZk" secondAttribute="trailing" constant="63" id="plO-J9-zaa"/>
                                 <constraint firstItem="btK-Fv-9Tn" firstAttribute="centerY" secondItem="OyP-kg-rrp" secondAttribute="centerY" id="uVl-4S-fNw"/>
+                                <constraint firstItem="nKu-II-t4A" firstAttribute="width" secondItem="btK-Fv-9Tn" secondAttribute="width" id="wJf-pd-VjR"/>
                             </constraints>
                         </view>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wCe-qy-VxO">
@@ -120,8 +131,11 @@
         </view>
     </objects>
     <resources>
+        <image name="flash" width="38" height="58"/>
+        <image name="switchCamera" width="55" height="43"/>
+        <image name="trigger" width="90" height="90"/>
         <namedColor name="darkGrayBackground">
-            <color red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.071000002324581146" green="0.071000002324581146" blue="0.071000002324581146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
