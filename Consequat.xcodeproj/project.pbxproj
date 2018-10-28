@@ -115,6 +115,11 @@
 		39CE989E2185D3F4004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */; };
 		39CE989F2185D3F4004C89B7 /* QCCaptureSession.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39CE98A92185D422004C89B7 /* QCCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98A82185D422004C89B7 /* QCCaptureSession.swift */; };
+		39CE98AD2185D553004C89B7 /* COSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98AC2185D553004C89B7 /* COSegmentedControl.swift */; };
+		39CE98B02185D686004C89B7 /* COSegmentedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98AE2185D686004C89B7 /* COSegmentedContainerViewController.swift */; };
+		39CE98B12185D686004C89B7 /* COSegmentedContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98AF2185D686004C89B7 /* COSegmentedContainerViewController.xib */; };
+		39CE98B32185D9B6004C89B7 /* COSegmentedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98B22185D9B6004C89B7 /* COSegmentedPageViewController.swift */; };
+		39CE98B62185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -344,6 +349,11 @@
 		39CE98982185D3F4004C89B7 /* QCCaptureSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCaptureSessionTests.swift; sourceTree = "<group>"; };
 		39CE989A2185D3F4004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39CE98A82185D422004C89B7 /* QCCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCaptureSession.swift; sourceTree = "<group>"; };
+		39CE98AC2185D553004C89B7 /* COSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedControl.swift; sourceTree = "<group>"; };
+		39CE98AE2185D686004C89B7 /* COSegmentedContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedContainerViewController.swift; sourceTree = "<group>"; };
+		39CE98AF2185D686004C89B7 /* COSegmentedContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COSegmentedContainerViewController.xib; sourceTree = "<group>"; };
+		39CE98B22185D9B6004C89B7 /* COSegmentedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedPageViewController.swift; sourceTree = "<group>"; };
+		39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedPageViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -752,6 +762,7 @@
 		3936EEE22184BEF50073B1E9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98AA2185D46D004C89B7 /* Segmented Container */,
 				39CE98342185AAB2004C89B7 /* Image Picker */,
 				3936EEE32184BF030073B1E9 /* Welcome */,
 			);
@@ -926,6 +937,34 @@
 				39CE989A2185D3F4004C89B7 /* Info.plist */,
 			);
 			path = QCCaptureSessionTests;
+			sourceTree = "<group>";
+		};
+		39CE98AA2185D46D004C89B7 /* Segmented Container */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98AB2185D532004C89B7 /* UI */,
+			);
+			path = "Segmented Container";
+			sourceTree = "<group>";
+		};
+		39CE98AB2185D532004C89B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98B42185EF5C004C89B7 /* ViewModel */,
+				39CE98AC2185D553004C89B7 /* COSegmentedControl.swift */,
+				39CE98AE2185D686004C89B7 /* COSegmentedContainerViewController.swift */,
+				39CE98AF2185D686004C89B7 /* COSegmentedContainerViewController.xib */,
+				39CE98B22185D9B6004C89B7 /* COSegmentedPageViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39CE98B42185EF5C004C89B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1243,6 +1282,7 @@
 				391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */,
 				39CE98582185BDD2004C89B7 /* COCameraPickerViewController.xib in Resources */,
 				391BE3022184AC8000A2CA96 /* Main.storyboard in Resources */,
+				39CE98B12185D686004C89B7 /* COSegmentedContainerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1326,11 +1366,15 @@
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
 				39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */,
 				39CE985A2185BDED004C89B7 /* COCameraPickerViewControllerViewModel.swift in Sources */,
+				39CE98B62185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift in Sources */,
 				39CE985C2185BE09004C89B7 /* COCameraPickerViewModelProtocol.swift in Sources */,
 				39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */,
 				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
+				39CE98B32185D9B6004C89B7 /* COSegmentedPageViewController.swift in Sources */,
+				39CE98AD2185D553004C89B7 /* COSegmentedControl.swift in Sources */,
 				39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */,
 				39CE98572185BDD2004C89B7 /* COCameraPickerViewController.swift in Sources */,
+				39CE98B02185D686004C89B7 /* COSegmentedContainerViewController.swift in Sources */,
 				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
 				39CE98832185CB18004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */,
