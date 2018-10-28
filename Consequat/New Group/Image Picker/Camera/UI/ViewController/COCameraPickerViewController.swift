@@ -21,13 +21,54 @@ class COCameraPickerViewController: UIViewController {
     @IBOutlet weak var cameraOptionsCollectionView: UICollectionView?
     @IBOutlet weak var optionView: UIView?
     
+    let cameraPickerViewModel: COCameraPickerViewModelProtocol?
+    
     // MARK: - Initialization
-
+    
+    init(cameraPickerViewModel: COCameraPickerViewModelProtocol) {
+        self.cameraPickerViewModel = cameraPickerViewModel
+        
+        super.init(nibName: String(describing: COCameraPickerViewController.self),
+                   bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        self.cameraPickerViewModel = nil
+        
+        super.init(nibName: String(describing: COCameraPickerViewController.self),
+                   bundle: nil)
+    }
+    
     // MARK: - View life cycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let view = self.cameraView {
+            self.cameraPickerViewModel?.startSession(capturePhotoView: view)
+        }
+        if let flashButton = self.flashButton {
+            self.cameraPickerViewModel?.updateFlash(flashView: flashButton)
+        }
     }
-
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.cameraPickerViewModel?.stopSession()
+    }
+    
+    // MARK: - IBActions
+    
+    @IBAction func triggerButtonTouchUpInside(_ sender: UIButton) {
+        self.cameraPickerViewModel?.takePicture()
+    }
+    
+    @IBAction func cameraSwipeButtonTouchUpInside(_ sender: UIButton) {
+        self.cameraPickerViewModel?.switchCamera()
+    }
+    
+    @IBAction func flashButtonTouchUpInside(_ sender: UIButton) {
+        self.cameraPickerViewModel?.updateFlash(flashView: sender)
+    }
+    
 }

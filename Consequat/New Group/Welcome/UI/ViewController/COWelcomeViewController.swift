@@ -12,7 +12,7 @@ class COWelcomeViewController: UIViewController {
     
     // MARK: - Properties
     
-    let viewModel: COWelcomeViewControllerViewModel?
+    var viewModel: COWelcomeViewControllerViewModel?
     
     @IBOutlet weak var welcomeImageView: UIImageView?
     @IBOutlet weak var libraryButton: UIButton?

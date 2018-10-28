@@ -9,19 +9,19 @@
 import UIKit
 import AVFoundation
 
-class QCCaptureSession: NSObject {
+public class QCCaptureSession: NSObject {
 
     // MARK: - Properties
     
-    let session: AVCaptureSession
-    let previewLayer: AVCaptureVideoPreviewLayer
-    var device: AVCaptureDevice?
-    lazy var output = AVCaptureStillImageOutput()
-    let mediaType = AVMediaType.video
+    public let session: AVCaptureSession
+    public let previewLayer: AVCaptureVideoPreviewLayer
+    public var device: AVCaptureDevice?
+    public lazy var output = AVCaptureStillImageOutput()
+    public let mediaType = AVMediaType.video
     
     // MARK: - Initialization
     
-    override init() {
+    public override init() {
         self.session = AVCaptureSession()
                 
         if self.session.canSetSessionPreset(AVCaptureSession.Preset.photo) {
@@ -46,7 +46,7 @@ class QCCaptureSession: NSObject {
     
     // MARK: - Input
     
-    func addInput() {
+    public func addInput() {
         if let device = self.device {
             do {
                 let input = try AVCaptureDeviceInput(device: device)
@@ -59,14 +59,14 @@ class QCCaptureSession: NSObject {
     
     // MARK: - Output
     
-    func addOutput() {
+    public func addOutput() {
         self.output.outputSettings = [AVVideoCodecKey: AVVideoCodecJPEG]
         self.session.addOutput(self.output)
     }
     
     // MARK: - Video Preview Layer
     
-    @objc func configurePreviewOrientation() {
+    @objc public func configurePreviewOrientation() {
         
         // Fix an apple bug where preview is oriented incorrectly, we must oriented the preview correctly
         if let connection = self.previewLayer.connection,
@@ -90,7 +90,7 @@ class QCCaptureSession: NSObject {
         }
     }
     
-    func configureVideoPreviewLayer(onView: UIView) {
+    public func configureVideoPreviewLayer(onView: UIView) {
         self.configurePreviewOrientation()
         let layerRect = onView.layer.bounds
         self.previewLayer.frame = layerRect
@@ -105,26 +105,26 @@ class QCCaptureSession: NSObject {
     
     // MARK: - Session
     
-    func startSession(capturePhotoView: UIView) {
+    public func startSession(capturePhotoView: UIView) {
         self.configureVideoPreviewLayer(onView: capturePhotoView)
         self.session.startRunning()
     }
     
-    func stopSession() {
+    public func stopSession() {
         self.session.stopRunning()
     }
     
     // MARK: - Flash
     
-    func startFlash() {
+    public func startFlash() {
         self.configureFlash(flashMode: .on)
     }
     
-    func stopFlash() {
+    public func stopFlash() {
        self.configureFlash(flashMode: .off)
     }
     
-    func configureFlash(flashMode: AVCaptureDevice.FlashMode) {
+    public func configureFlash(flashMode: AVCaptureDevice.FlashMode) {
         guard let device = self.device else { return }
         if device.hasFlash && device.isFlashModeSupported(flashMode) {
             
@@ -138,7 +138,7 @@ class QCCaptureSession: NSObject {
         }
     }
     
-    func updateFlash() {
+    public func updateFlash() {
         guard let device = self.device else { return }        
         switch device.flashMode {
         case .on:
@@ -152,7 +152,7 @@ class QCCaptureSession: NSObject {
     
     // MARK: - Capture Image
     
-    func captureImage(completion: @escaping (UIImage) -> Void) {
+    public func captureImage(completion: @escaping (UIImage) -> Void) {
         var captureConnection: AVCaptureConnection?
         
         // Get capture connection
@@ -200,7 +200,7 @@ class QCCaptureSession: NSObject {
     }
     
     // MARK: - Camera
-    func switchCamera() {
+    public func switchCamera() {
         guard let currentInput = session.inputs.first as? AVCaptureDeviceInput,
             let newCameraDevice = currentInput.device.position == .back ? getCamera(with: .front) : getCamera(with: .back),
             let newVideoInput = try? AVCaptureDeviceInput(device: newCameraDevice) else {
@@ -213,7 +213,7 @@ class QCCaptureSession: NSObject {
         session.commitConfiguration()
     }
     
-    func getCamera(with position: AVCaptureDevice.Position) -> AVCaptureDevice? {        
+    public func getCamera(with position: AVCaptureDevice.Position) -> AVCaptureDevice? {
         let devices = AVCaptureDevice.devices(for: AVMediaType.video)
         return devices.filter {
             $0.position == position

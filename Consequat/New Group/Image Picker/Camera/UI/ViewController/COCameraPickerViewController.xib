@@ -39,14 +39,23 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btK-Fv-9Tn">
                                     <rect key="frame" x="164.5" y="56" width="46" height="30"/>
                                     <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="triggerButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="N34-ee-bdh"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qM-CX-uZk">
                                     <rect key="frame" x="55.5" y="56" width="46" height="30"/>
                                     <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="cameraSwipeButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="QOV-vF-AIO"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKu-II-t4A">
                                     <rect key="frame" x="278.5" y="56" width="46" height="30"/>
                                     <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="flashButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="rtv-ua-g5u"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +89,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="OyP-kg-rrp" secondAttribute="bottom" id="1v7-Oz-HtW"/>
                         <constraint firstAttribute="trailing" secondItem="wCe-qy-VxO" secondAttribute="trailing" id="1vx-Nl-ZeA"/>

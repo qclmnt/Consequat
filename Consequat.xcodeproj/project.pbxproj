@@ -114,6 +114,7 @@
 		39CE98772185C38F004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */; };
 		39CE98782185C38F004C89B7 /* QCCaptureSession.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39CE98802185C3B4004C89B7 /* QCCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE987F2185C3B4004C89B7 /* QCCaptureSession.swift */; };
+		39CE98832185CB18004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -342,6 +343,7 @@
 		39CE98712185C38F004C89B7 /* QCCaptureSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCaptureSessionTests.swift; sourceTree = "<group>"; };
 		39CE98732185C38F004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39CE987F2185C3B4004C89B7 /* QCCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCaptureSession.swift; sourceTree = "<group>"; };
+		39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCameraPickerRoutingEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -866,6 +868,7 @@
 		39CE98512185BD83004C89B7 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				39CE98812185CAF7004C89B7 /* Navigation */,
 				39CE98522185BDAC004C89B7 /* UI */,
 			);
 			path = Camera;
@@ -915,6 +918,14 @@
 				39CE98732185C38F004C89B7 /* Info.plist */,
 			);
 			path = QCCaptureSessionTests;
+			sourceTree = "<group>";
+		};
+		39CE98812185CAF7004C89B7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1322,6 +1333,7 @@
 				39CE98572185BDD2004C89B7 /* COCameraPickerViewController.swift in Sources */,
 				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
+				39CE98832185CB18004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */,
 				39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */,
 				39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,

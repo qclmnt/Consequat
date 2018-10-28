@@ -6,8 +6,16 @@
 //  Copyright © 2018 Quentin CLEMENT. All rights reserved.
 //
 
+import QCCaptureSession
 import QCViewModel
 
 protocol COCameraPickerViewModelProtocol: QCViewControllerViewModel {
+    
+    func startSession(capturePhotoView: UIView)
+    func stopSession()
+    
+    func takePicture()
+    func updateFlash(flashView: UIView)
+    func switchCamera()
     
 }
