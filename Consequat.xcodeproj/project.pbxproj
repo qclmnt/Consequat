@@ -101,6 +101,7 @@
 		39CE98442185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */; };
 		39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */; };
 		39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */; };
+		39CE984B2185B820004C89B7 /* QCRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984A2185B820004C89B7 /* QCRouting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +294,7 @@
 		39CE98422185B084004C89B7 /* COLibraryPickerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COLibraryPickerCollectionViewCell.xib; sourceTree = "<group>"; };
 		39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCellViewModel.swift; sourceTree = "<group>"; };
 		39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerRoutingEntry.swift; sourceTree = "<group>"; };
+		39CE984A2185B820004C89B7 /* QCRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCRouting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +428,7 @@
 				391BE3422184ADF700A2CA96 /* QCRoutingEntry.swift */,
 				391BE3232184ADC800A2CA96 /* QCNavigation.h */,
 				391BE3242184ADC800A2CA96 /* Info.plist */,
+				39CE984A2185B820004C89B7 /* QCRouting.swift */,
 			);
 			path = QCNavigation;
 			sourceTree = "<group>";
@@ -1133,6 +1136,7 @@
 				391BE3462184ADF700A2CA96 /* QCRoutingEntry.swift in Sources */,
 				391BE3432184ADF700A2CA96 /* QCNavigationStyle.swift in Sources */,
 				391BE3442184ADF700A2CA96 /* QCPopRoutingEntry.swift in Sources */,
+				39CE984B2185B820004C89B7 /* QCRouting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
