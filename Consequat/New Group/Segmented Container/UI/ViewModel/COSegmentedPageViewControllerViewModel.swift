@@ -24,6 +24,8 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
         return vcs
     }()
     var currentIndex = 0
+    
+    weak var segmentedPageDelegate: COSegmentedPageContainerDelegate?
 
     // MARK: - Initializer
     
@@ -71,6 +73,18 @@ extension COSegmentedPageViewControllerViewModel: UIPageViewControllerDataSource
         
         self.currentIndex = index
         return self.itemsController[index]
+    }
+    
+}
+
+extension COSegmentedPageViewControllerViewModel: UIPageViewControllerDelegate {
+    
+    func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
+        
+        guard let viewContollerToShow = pendingViewControllers.first,
+            let indexToShow = self.itemsController.index(where: {$0 === viewContollerToShow}) else {return}
+        self.segmentedPageDelegate?.viewControllerShownChanged(index: indexToShow)
+        
     }
     
 }

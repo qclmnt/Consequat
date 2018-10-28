@@ -41,6 +41,7 @@ class COSegmentedContainerViewController: UIViewController {
 
         guard let containerView = self.containerView else {return}
         self.pageViewController?.view.frame = containerView.bounds
+        self.viewModel?.segmentedPageDelegate = self
         
         if let pageViewController = self.pageViewController {
             self.addChild(pageViewController)
@@ -49,16 +50,19 @@ class COSegmentedContainerViewController: UIViewController {
         }
     
     }
+    
+    // MARK: - IBActions
 
     @IBAction func segmentedControllerValueChanged(_ sender: COSegmentedControl) {
-        let index = sender.selectedSegmentIndex
-        
-        self.viewModel?.showPage(index: index,
+        self.viewModel?.showPage(index: sender.selectedSegmentIndex,
                                  pageController: self.pageViewController)
-//        if index = 0 {
-//
-//        } else {
-//
-//        }
     }
+}
+
+extension COSegmentedContainerViewController: COSegmentedPageContainerDelegate {
+    
+    func viewControllerShownChanged(index: Int) {
+        self.segmentedControl?.selectedSegmentIndex = index
+    }
+    
 }

@@ -39,6 +39,7 @@ class COSegmentedPageViewController: UIPageViewController {
             let firstVC = viewModel.itemsController.first else {return}
         self.setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         self.dataSource = self.viewModel
+        self.delegate = self.viewModel
     }
 
 }

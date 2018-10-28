@@ -120,6 +120,7 @@
 		39CE98B12185D686004C89B7 /* COSegmentedContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98AF2185D686004C89B7 /* COSegmentedContainerViewController.xib */; };
 		39CE98B32185D9B6004C89B7 /* COSegmentedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98B22185D9B6004C89B7 /* COSegmentedPageViewController.swift */; };
 		39CE98B62185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */; };
+		39CE98B82185F8DD004C89B7 /* COSegmentedPageContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98B72185F8DD004C89B7 /* COSegmentedPageContainerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +355,7 @@
 		39CE98AF2185D686004C89B7 /* COSegmentedContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COSegmentedContainerViewController.xib; sourceTree = "<group>"; };
 		39CE98B22185D9B6004C89B7 /* COSegmentedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedPageViewController.swift; sourceTree = "<group>"; };
 		39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedPageViewControllerViewModel.swift; sourceTree = "<group>"; };
+		39CE98B72185F8DD004C89B7 /* COSegmentedPageContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSegmentedPageContainerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -963,6 +965,7 @@
 			isa = PBXGroup;
 			children = (
 				39CE98B52185EF74004C89B7 /* COSegmentedPageViewControllerViewModel.swift */,
+				39CE98B72185F8DD004C89B7 /* COSegmentedPageContainerDelegate.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1380,6 +1383,7 @@
 				39CE98832185CB18004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */,
 				39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */,
 				39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */,
+				39CE98B82185F8DD004C89B7 /* COSegmentedPageContainerDelegate.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
