@@ -8,7 +8,6 @@
 
 import UIKit
 
-@objcMembers
 open class QCCollectionViewReusableViewModel: QCViewModel {
     
     weak public var delegate: QCViewModelDelegate?

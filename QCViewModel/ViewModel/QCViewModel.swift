@@ -8,14 +8,14 @@
 
 import Foundation
 
-@objc public protocol QCViewModelDelegate: class, UIScrollViewDelegate {
+public protocol QCViewModelDelegate: class, UIScrollViewDelegate {
     func viewModelDidStartLoad()
     func viewModelDidLoad()
     func viewModelDidFail(statusCode: Int)
     var viewModel: QCViewModel? { get set }
 }
 
-@objc public protocol QCViewModel {
+public protocol QCViewModel {
     
     // MARK: - Properties
     var delegate: QCViewModelDelegate? { get set }

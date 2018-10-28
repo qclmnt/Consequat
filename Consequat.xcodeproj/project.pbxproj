@@ -91,6 +91,9 @@
 		3936EEBB2184B6080073B1E9 /* QCDeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEBA2184B6080073B1E9 /* QCDeviceHelper.swift */; };
 		3936EEBD2184B6410073B1E9 /* QCDeviceHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */; };
 		3936EEBE2184B6510073B1E9 /* QCNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391BE3212184ADC700A2CA96 /* QCNavigation.framework */; };
+		3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */; };
+		3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */; };
+		3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,6 +276,9 @@
 		3936EEAE2184B5E60073B1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3936EEBA2184B6080073B1E9 /* QCDeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCDeviceHelper.swift; sourceTree = "<group>"; };
 		3936EEBF2184B9BF0073B1E9 /* QCViewModelTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCViewModelTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewController.swift; sourceTree = "<group>"; };
+		3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COWelcomeViewController.xib; sourceTree = "<group>"; };
+		3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COWelcomeViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +383,7 @@
 		391BE2FB2184AC8000A2CA96 /* Consequat */ = {
 			isa = PBXGroup;
 			children = (
+				3936EEE22184BEF50073B1E9 /* Features */,
 				391BE2FC2184AC8000A2CA96 /* AppDelegate.swift */,
 				391BE2FE2184AC8000A2CA96 /* ViewController.swift */,
 				391BE3002184AC8000A2CA96 /* Main.storyboard */,
@@ -655,6 +662,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3936EEE22184BEF50073B1E9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEE32184BF030073B1E9 /* Welcome */,
+			);
+			name = Features;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3936EEE32184BF030073B1E9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEE42184BF0A0073B1E9 /* UI */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		3936EEE42184BF0A0073B1E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEEB2184BF600073B1E9 /* ViewController */,
+				3936EEEA2184BF510073B1E9 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3936EEEA2184BF510073B1E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEEC2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3936EEEB2184BF600073B1E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3936EEE62184BF440073B1E9 /* COWelcomeViewController.swift */,
+				3936EEE72184BF440073B1E9 /* COWelcomeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -909,6 +959,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE3072184AC8200A2CA96 /* LaunchScreen.storyboard in Resources */,
+				3936EEE92184BF440073B1E9 /* COWelcomeViewController.xib in Resources */,
 				391BE3042184AC8200A2CA96 /* Assets.xcassets in Resources */,
 				391BE3022184AC8000A2CA96 /* Main.storyboard in Resources */,
 			);
@@ -976,6 +1027,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				391BE2FF2184AC8000A2CA96 /* ViewController.swift in Sources */,
+				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
+				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
