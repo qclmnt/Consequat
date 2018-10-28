@@ -47,6 +47,7 @@ class COSegmentedContainerViewController: UIViewController {
         guard let containerView = self.containerView else {return}
         self.pageViewController?.view.frame = containerView.bounds
         self.viewModel?.segmentedPageDelegate = self
+        self.viewModel?.load()
         
         if let pageViewController = self.pageViewController {
             self.addChild(pageViewController)

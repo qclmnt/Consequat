@@ -28,6 +28,13 @@ class COSegmentedPageViewControllerViewModel: NSObject, QCViewControllerViewMode
         self.initController = initController
     }
     
+    // MARK: - QCViewModel
+    
+    func load() {
+        guard let indexToShow = self.itemsController.index(where: {$0 === self.initController}) else {return}
+        self.segmentedPageDelegate?.viewControllerShownChanged(index: indexToShow)
+    }
+    
     // MARK: - Page control
     
     func showPage(index: Int, pageController: UIPageViewController?) {

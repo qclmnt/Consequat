@@ -29,8 +29,8 @@
                         <constraint firstAttribute="height" constant="40" id="wpa-47-JXa"/>
                     </constraints>
                     <segments>
-                        <segment title="First"/>
-                        <segment title="Second"/>
+                        <segment title="Library"/>
+                        <segment title="Camera"/>
                     </segments>
                     <color key="tintColor" name="darkGrayBackground"/>
                     <connections>
