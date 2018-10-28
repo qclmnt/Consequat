@@ -102,6 +102,8 @@
 		39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */; };
 		39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */; };
 		39CE984B2185B820004C89B7 /* QCRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984A2185B820004C89B7 /* QCRouting.swift */; };
+		39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984D2185B9A1004C89B7 /* COEnvironment.swift */; };
+		39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +297,8 @@
 		39CE98452185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerCellViewModel.swift; sourceTree = "<group>"; };
 		39CE98482185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLibraryPickerRoutingEntry.swift; sourceTree = "<group>"; };
 		39CE984A2185B820004C89B7 /* QCRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCRouting.swift; sourceTree = "<group>"; };
+		39CE984D2185B9A1004C89B7 /* COEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COEnvironment.swift; sourceTree = "<group>"; };
+		39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COAppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +403,7 @@
 		391BE2FB2184AC8000A2CA96 /* Consequat */ = {
 			isa = PBXGroup;
 			children = (
+				39CE984C2185B983004C89B7 /* AppEnvironment */,
 				3936EEE22184BEF50073B1E9 /* Features */,
 				391BE2FC2184AC8000A2CA96 /* AppDelegate.swift */,
 				391BE2FE2184AC8000A2CA96 /* ViewController.swift */,
@@ -785,6 +790,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		39CE984C2185B983004C89B7 /* AppEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				39CE984D2185B9A1004C89B7 /* COEnvironment.swift */,
+				39CE984F2185B9D7004C89B7 /* COAppEnvironment.swift */,
+			);
+			path = AppEnvironment;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1110,11 +1124,13 @@
 				391BE2FF2184AC8000A2CA96 /* ViewController.swift in Sources */,
 				39CE983D2185AB8D004C89B7 /* COLibraryPickerCollectionViewControllerViewModel.swift in Sources */,
 				3936EEE82184BF440073B1E9 /* COWelcomeViewController.swift in Sources */,
+				39CE984E2185B9A1004C89B7 /* COEnvironment.swift in Sources */,
 				39CE98462185B4CB004C89B7 /* COLibraryPickerCellViewModel.swift in Sources */,
 				39CE98382185AB04004C89B7 /* COLibraryPickerCollectionViewController.swift in Sources */,
 				39CE98492185B78F004C89B7 /* COLibraryPickerRoutingEntry.swift in Sources */,
 				39CE983F2185AF80004C89B7 /* COLibraryPickerSection.swift in Sources */,
 				3936EEED2184BF860073B1E9 /* COWelcomeViewControllerViewModel.swift in Sources */,
+				39CE98502185B9D7004C89B7 /* COAppEnvironment.swift in Sources */,
 				39CE98432185B084004C89B7 /* COLibraryPickerCollectionViewCell.swift in Sources */,
 				391BE2FD2184AC8000A2CA96 /* AppDelegate.swift in Sources */,
 			);

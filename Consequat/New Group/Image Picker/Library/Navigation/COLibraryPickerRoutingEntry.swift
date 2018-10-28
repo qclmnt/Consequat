@@ -12,6 +12,10 @@ class COLibraryPickerRoutingEntry: QCRoutingEntry {
 
     // MARK: - QCRoutingEntry
     
+    var navigationStyle: QCNavigationStyle {
+        return .modal
+    }
+    
     var viewController: UIViewController? {
         let libraryPickerViewModel = COLibraryPickerCollectionViewControllerViewModel()
         return COLibraryPickerCollectionViewController(libraryPickerViewModel: libraryPickerViewModel)

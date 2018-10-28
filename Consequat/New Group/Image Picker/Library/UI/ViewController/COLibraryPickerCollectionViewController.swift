@@ -22,8 +22,7 @@ class COLibraryPickerCollectionViewController: UICollectionViewController {
         
         self.libraryPickerViewModel = libraryPickerViewModel
         
-        super.init(nibName: String(describing: COLibraryPickerCollectionViewController.self),
-                   bundle: nil)
+        super.init(collectionViewLayout: UICollectionViewFlowLayout())
         
         self.libraryPickerViewModel?.delegate = self
     }
@@ -32,8 +31,7 @@ class COLibraryPickerCollectionViewController: UICollectionViewController {
         
         self.libraryPickerViewModel = nil
         
-        super.init(nibName: String(describing: COLibraryPickerCollectionViewController.self),
-                   bundle: nil)
+        super.init(collectionViewLayout: UICollectionViewFlowLayout())
     }
     
     // MARK: View life cycle

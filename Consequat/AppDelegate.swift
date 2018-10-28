@@ -24,9 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Build Root
         self.buildRoot()
         
-        // Configure App Environment
-//        QCAppEnvironment.shared().configureAppEnvironment()
-        
         // Configure global layout
         UINavigationBar.appearance().isTranslucent = false
         

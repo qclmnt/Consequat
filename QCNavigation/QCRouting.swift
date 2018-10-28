@@ -8,18 +8,22 @@
 
 import UIKit
 
-struct QCRouting: QCNavigator {
+public struct QCRouting: QCNavigator {
+    
+    public init() {
+        
+    }
     
     // MARK: - QCNavigator
     
-    var lastRoutingEntry: QCRoutingEntry?
+    public var lastRoutingEntry: QCRoutingEntry?
     
-    func visibleViewController() -> UIViewController? {
+    public func visibleViewController() -> UIViewController? {
         return self.visibleViewController(UIApplication.shared.delegate?.window??.rootViewController)
         
     }
     
-    func visibleViewController(_ rootViewController: UIViewController?) -> UIViewController? {
+    public func visibleViewController(_ rootViewController: UIViewController?) -> UIViewController? {
         
         if let rootNavigationController = rootViewController as? UINavigationController {
             let lastViewController: UIViewController? = rootNavigationController.viewControllers.last
@@ -36,11 +40,11 @@ struct QCRouting: QCNavigator {
         }
     }
     
-    func route(to entry: QCRoutingEntry) {
+    public func route(to entry: QCRoutingEntry) {
         self.route(to: entry, from: nil)
     }
     
-    func route(to entry: QCRoutingEntry, from fromViewController: UIViewController?) {
+    public func route(to entry: QCRoutingEntry, from fromViewController: UIViewController?) {
         
         var fromVC = fromViewController
         
