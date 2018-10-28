@@ -108,13 +108,13 @@
 		39CE98582185BDD2004C89B7 /* COCameraPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CE98562185BDD2004C89B7 /* COCameraPickerViewController.xib */; };
 		39CE985A2185BDED004C89B7 /* COCameraPickerViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98592185BDED004C89B7 /* COCameraPickerViewControllerViewModel.swift */; };
 		39CE985C2185BE09004C89B7 /* COCameraPickerViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE985B2185BE09004C89B7 /* COCameraPickerViewModelProtocol.swift */; };
-		39CE986B2185C38F004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */; };
-		39CE98722185C38F004C89B7 /* QCCaptureSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98712185C38F004C89B7 /* QCCaptureSessionTests.swift */; };
-		39CE98742185C38F004C89B7 /* QCCaptureSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CE98642185C38E004C89B7 /* QCCaptureSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39CE98772185C38F004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */; };
-		39CE98782185C38F004C89B7 /* QCCaptureSession.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		39CE98802185C3B4004C89B7 /* QCCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE987F2185C3B4004C89B7 /* QCCaptureSession.swift */; };
 		39CE98832185CB18004C89B7 /* COCameraPickerRoutingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */; };
+		39CE98922185D3F4004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */; };
+		39CE98992185D3F4004C89B7 /* QCCaptureSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98982185D3F4004C89B7 /* QCCaptureSessionTests.swift */; };
+		39CE989B2185D3F4004C89B7 /* QCCaptureSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CE988B2185D3F3004C89B7 /* QCCaptureSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39CE989E2185D3F4004C89B7 /* QCCaptureSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */; };
+		39CE989F2185D3F4004C89B7 /* QCCaptureSession.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39CE98A92185D422004C89B7 /* QCCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE98A82185D422004C89B7 /* QCCaptureSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,25 +188,25 @@
 			remoteGlobalIDString = 3936EE9C2184B5E60073B1E9;
 			remoteInfo = QCDeviceHelper;
 		};
-		39CE986C2185C38F004C89B7 /* PBXContainerItemProxy */ = {
+		39CE98932185D3F4004C89B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39CE98612185C38E004C89B7;
+			remoteGlobalIDString = 39CE98882185D3F3004C89B7;
 			remoteInfo = QCCaptureSession;
 		};
-		39CE986E2185C38F004C89B7 /* PBXContainerItemProxy */ = {
+		39CE98952185D3F4004C89B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 391BE2F82184AC8000A2CA96;
 			remoteInfo = Consequat;
 		};
-		39CE98752185C38F004C89B7 /* PBXContainerItemProxy */ = {
+		39CE989C2185D3F4004C89B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 391BE2F12184AC8000A2CA96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39CE98612185C38E004C89B7;
+			remoteGlobalIDString = 39CE98882185D3F3004C89B7;
 			remoteInfo = QCCaptureSession;
 		};
 /* End PBXContainerItemProxy section */
@@ -220,7 +220,7 @@
 			files = (
 				3936EEB32184B5E60073B1E9 /* QCDeviceHelper.framework in Embed Frameworks */,
 				391BE3372184ADC800A2CA96 /* QCNavigation.framework in Embed Frameworks */,
-				39CE98782185C38F004C89B7 /* QCCaptureSession.framework in Embed Frameworks */,
+				39CE989F2185D3F4004C89B7 /* QCCaptureSession.framework in Embed Frameworks */,
 				391BE3662184B2A200A2CA96 /* QCViewModel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -336,14 +336,14 @@
 		39CE98562185BDD2004C89B7 /* COCameraPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCameraPickerViewController.xib; sourceTree = "<group>"; };
 		39CE98592185BDED004C89B7 /* COCameraPickerViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCameraPickerViewControllerViewModel.swift; sourceTree = "<group>"; };
 		39CE985B2185BE09004C89B7 /* COCameraPickerViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCameraPickerViewModelProtocol.swift; sourceTree = "<group>"; };
-		39CE98622185C38E004C89B7 /* QCCaptureSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCCaptureSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39CE98642185C38E004C89B7 /* QCCaptureSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCCaptureSession.h; sourceTree = "<group>"; };
-		39CE98652185C38E004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39CE986A2185C38F004C89B7 /* QCCaptureSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCCaptureSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39CE98712185C38F004C89B7 /* QCCaptureSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCaptureSessionTests.swift; sourceTree = "<group>"; };
-		39CE98732185C38F004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39CE987F2185C3B4004C89B7 /* QCCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCaptureSession.swift; sourceTree = "<group>"; };
 		39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCameraPickerRoutingEntry.swift; sourceTree = "<group>"; };
+		39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCCaptureSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CE988B2185D3F3004C89B7 /* QCCaptureSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCCaptureSession.h; sourceTree = "<group>"; };
+		39CE988C2185D3F3004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CE98912185D3F4004C89B7 /* QCCaptureSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCCaptureSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CE98982185D3F4004C89B7 /* QCCaptureSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCaptureSessionTests.swift; sourceTree = "<group>"; };
+		39CE989A2185D3F4004C89B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CE98A82185D422004C89B7 /* QCCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCCaptureSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,7 +353,7 @@
 			files = (
 				3936EEB22184B5E60073B1E9 /* QCDeviceHelper.framework in Frameworks */,
 				391BE3362184ADC800A2CA96 /* QCNavigation.framework in Frameworks */,
-				39CE98772185C38F004C89B7 /* QCCaptureSession.framework in Frameworks */,
+				39CE989E2185D3F4004C89B7 /* QCCaptureSession.framework in Frameworks */,
 				391BE3652184B2A200A2CA96 /* QCViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,18 +412,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE985F2185C38E004C89B7 /* Frameworks */ = {
+		39CE98862185D3F3004C89B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE98672185C38F004C89B7 /* Frameworks */ = {
+		39CE988E2185D3F4004C89B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CE986B2185C38F004C89B7 /* QCCaptureSession.framework in Frameworks */,
+				39CE98922185D3F4004C89B7 /* QCCaptureSession.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +441,8 @@
 				391BE35E2184B2A200A2CA96 /* QCViewModelTests */,
 				3936EE9E2184B5E60073B1E9 /* QCDeviceHelper */,
 				3936EEAB2184B5E60073B1E9 /* QCDeviceHelperTests */,
-				39CE98632185C38E004C89B7 /* QCCaptureSession */,
-				39CE98702185C38F004C89B7 /* QCCaptureSessionTests */,
+				39CE988A2185D3F3004C89B7 /* QCCaptureSession */,
+				39CE98972185D3F4004C89B7 /* QCCaptureSessionTests */,
 				391BE2FA2184AC8000A2CA96 /* Products */,
 				3936EEBC2184B6410073B1E9 /* Frameworks */,
 			);
@@ -459,8 +459,8 @@
 				391BE3582184B2A200A2CA96 /* QCViewModelTests.xctest */,
 				3936EE9D2184B5E60073B1E9 /* QCDeviceHelper.framework */,
 				3936EEA52184B5E60073B1E9 /* QCDeviceHelperTests.xctest */,
-				39CE98622185C38E004C89B7 /* QCCaptureSession.framework */,
-				39CE986A2185C38F004C89B7 /* QCCaptureSessionTests.xctest */,
+				39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */,
+				39CE98912185D3F4004C89B7 /* QCCaptureSessionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -901,31 +901,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		39CE98632185C38E004C89B7 /* QCCaptureSession */ = {
-			isa = PBXGroup;
-			children = (
-				39CE987F2185C3B4004C89B7 /* QCCaptureSession.swift */,
-				39CE98642185C38E004C89B7 /* QCCaptureSession.h */,
-				39CE98652185C38E004C89B7 /* Info.plist */,
-			);
-			path = QCCaptureSession;
-			sourceTree = "<group>";
-		};
-		39CE98702185C38F004C89B7 /* QCCaptureSessionTests */ = {
-			isa = PBXGroup;
-			children = (
-				39CE98712185C38F004C89B7 /* QCCaptureSessionTests.swift */,
-				39CE98732185C38F004C89B7 /* Info.plist */,
-			);
-			path = QCCaptureSessionTests;
-			sourceTree = "<group>";
-		};
 		39CE98812185CAF7004C89B7 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
 				39CE98822185CB18004C89B7 /* COCameraPickerRoutingEntry.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		39CE988A2185D3F3004C89B7 /* QCCaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98A82185D422004C89B7 /* QCCaptureSession.swift */,
+				39CE988B2185D3F3004C89B7 /* QCCaptureSession.h */,
+				39CE988C2185D3F3004C89B7 /* Info.plist */,
+			);
+			path = QCCaptureSession;
+			sourceTree = "<group>";
+		};
+		39CE98972185D3F4004C89B7 /* QCCaptureSessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				39CE98982185D3F4004C89B7 /* QCCaptureSessionTests.swift */,
+				39CE989A2185D3F4004C89B7 /* Info.plist */,
+			);
+			path = QCCaptureSessionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -955,11 +955,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE985D2185C38E004C89B7 /* Headers */ = {
+		39CE98842185D3F3004C89B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CE98742185C38F004C89B7 /* QCCaptureSession.h in Headers */,
+				39CE989B2185D3F4004C89B7 /* QCCaptureSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,7 +981,7 @@
 				391BE3352184ADC800A2CA96 /* PBXTargetDependency */,
 				391BE3642184B2A200A2CA96 /* PBXTargetDependency */,
 				3936EEB12184B5E60073B1E9 /* PBXTargetDependency */,
-				39CE98762185C38F004C89B7 /* PBXTargetDependency */,
+				39CE989D2185D3F4004C89B7 /* PBXTargetDependency */,
 			);
 			name = Consequat;
 			productName = Consequat;
@@ -1117,14 +1117,14 @@
 			productReference = 3936EEA52184B5E60073B1E9 /* QCDeviceHelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		39CE98612185C38E004C89B7 /* QCCaptureSession */ = {
+		39CE98882185D3F3004C89B7 /* QCCaptureSession */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39CE98792185C38F004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSession" */;
+			buildConfigurationList = 39CE98A02185D3F4004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSession" */;
 			buildPhases = (
-				39CE985D2185C38E004C89B7 /* Headers */,
-				39CE985E2185C38E004C89B7 /* Sources */,
-				39CE985F2185C38E004C89B7 /* Frameworks */,
-				39CE98602185C38E004C89B7 /* Resources */,
+				39CE98842185D3F3004C89B7 /* Headers */,
+				39CE98852185D3F3004C89B7 /* Sources */,
+				39CE98862185D3F3004C89B7 /* Frameworks */,
+				39CE98872185D3F3004C89B7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1132,26 +1132,26 @@
 			);
 			name = QCCaptureSession;
 			productName = QCCaptureSession;
-			productReference = 39CE98622185C38E004C89B7 /* QCCaptureSession.framework */;
+			productReference = 39CE98892185D3F3004C89B7 /* QCCaptureSession.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		39CE98692185C38F004C89B7 /* QCCaptureSessionTests */ = {
+		39CE98902185D3F4004C89B7 /* QCCaptureSessionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39CE987C2185C38F004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSessionTests" */;
+			buildConfigurationList = 39CE98A32185D3F4004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSessionTests" */;
 			buildPhases = (
-				39CE98662185C38F004C89B7 /* Sources */,
-				39CE98672185C38F004C89B7 /* Frameworks */,
-				39CE98682185C38F004C89B7 /* Resources */,
+				39CE988D2185D3F4004C89B7 /* Sources */,
+				39CE988E2185D3F4004C89B7 /* Frameworks */,
+				39CE988F2185D3F4004C89B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39CE986D2185C38F004C89B7 /* PBXTargetDependency */,
-				39CE986F2185C38F004C89B7 /* PBXTargetDependency */,
+				39CE98942185D3F4004C89B7 /* PBXTargetDependency */,
+				39CE98962185D3F4004C89B7 /* PBXTargetDependency */,
 			);
 			name = QCCaptureSessionTests;
 			productName = QCCaptureSessionTests;
-			productReference = 39CE986A2185C38F004C89B7 /* QCCaptureSessionTests.xctest */;
+			productReference = 39CE98912185D3F4004C89B7 /* QCCaptureSessionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1195,11 +1195,11 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 391BE2F82184AC8000A2CA96;
 					};
-					39CE98612185C38E004C89B7 = {
+					39CE98882185D3F3004C89B7 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
 					};
-					39CE98692185C38F004C89B7 = {
+					39CE98902185D3F4004C89B7 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 391BE2F82184AC8000A2CA96;
 					};
@@ -1226,8 +1226,8 @@
 				391BE3572184B2A200A2CA96 /* QCViewModelTests */,
 				3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */,
 				3936EEA42184B5E60073B1E9 /* QCDeviceHelperTests */,
-				39CE98612185C38E004C89B7 /* QCCaptureSession */,
-				39CE98692185C38F004C89B7 /* QCCaptureSessionTests */,
+				39CE98882185D3F3004C89B7 /* QCCaptureSession */,
+				39CE98902185D3F4004C89B7 /* QCCaptureSessionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1300,14 +1300,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE98602185C38E004C89B7 /* Resources */ = {
+		39CE98872185D3F3004C89B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE98682185C38F004C89B7 /* Resources */ = {
+		39CE988F2185D3F4004C89B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1450,19 +1450,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE985E2185C38E004C89B7 /* Sources */ = {
+		39CE98852185D3F3004C89B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CE98802185C3B4004C89B7 /* QCCaptureSession.swift in Sources */,
+				39CE98A92185D422004C89B7 /* QCCaptureSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CE98662185C38F004C89B7 /* Sources */ = {
+		39CE988D2185D3F4004C89B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CE98722185C38F004C89B7 /* QCCaptureSessionTests.swift in Sources */,
+				39CE98992185D3F4004C89B7 /* QCCaptureSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,20 +1519,20 @@
 			target = 3936EE9C2184B5E60073B1E9 /* QCDeviceHelper */;
 			targetProxy = 3936EEB02184B5E60073B1E9 /* PBXContainerItemProxy */;
 		};
-		39CE986D2185C38F004C89B7 /* PBXTargetDependency */ = {
+		39CE98942185D3F4004C89B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39CE98612185C38E004C89B7 /* QCCaptureSession */;
-			targetProxy = 39CE986C2185C38F004C89B7 /* PBXContainerItemProxy */;
+			target = 39CE98882185D3F3004C89B7 /* QCCaptureSession */;
+			targetProxy = 39CE98932185D3F4004C89B7 /* PBXContainerItemProxy */;
 		};
-		39CE986F2185C38F004C89B7 /* PBXTargetDependency */ = {
+		39CE98962185D3F4004C89B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 391BE2F82184AC8000A2CA96 /* Consequat */;
-			targetProxy = 39CE986E2185C38F004C89B7 /* PBXContainerItemProxy */;
+			targetProxy = 39CE98952185D3F4004C89B7 /* PBXContainerItemProxy */;
 		};
-		39CE98762185C38F004C89B7 /* PBXTargetDependency */ = {
+		39CE989D2185D3F4004C89B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39CE98612185C38E004C89B7 /* QCCaptureSession */;
-			targetProxy = 39CE98752185C38F004C89B7 /* PBXContainerItemProxy */;
+			target = 39CE98882185D3F3004C89B7 /* QCCaptureSession */;
+			targetProxy = 39CE989C2185D3F4004C89B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2051,7 +2051,7 @@
 			};
 			name = Release;
 		};
-		39CE987A2185C38F004C89B7 /* Debug */ = {
+		39CE98A12185D3F4004C89B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -2081,7 +2081,7 @@
 			};
 			name = Debug;
 		};
-		39CE987B2185C38F004C89B7 /* Release */ = {
+		39CE98A22185D3F4004C89B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -2110,7 +2110,7 @@
 			};
 			name = Release;
 		};
-		39CE987D2185C38F004C89B7 /* Debug */ = {
+		39CE98A42185D3F4004C89B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -2130,7 +2130,7 @@
 			};
 			name = Debug;
 		};
-		39CE987E2185C38F004C89B7 /* Release */ = {
+		39CE98A52185D3F4004C89B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -2234,20 +2234,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39CE98792185C38F004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSession" */ = {
+		39CE98A02185D3F4004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39CE987A2185C38F004C89B7 /* Debug */,
-				39CE987B2185C38F004C89B7 /* Release */,
+				39CE98A12185D3F4004C89B7 /* Debug */,
+				39CE98A22185D3F4004C89B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39CE987C2185C38F004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSessionTests" */ = {
+		39CE98A32185D3F4004C89B7 /* Build configuration list for PBXNativeTarget "QCCaptureSessionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39CE987D2185C38F004C89B7 /* Debug */,
-				39CE987E2185C38F004C89B7 /* Release */,
+				39CE98A42185D3F4004C89B7 /* Debug */,
+				39CE98A52185D3F4004C89B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
